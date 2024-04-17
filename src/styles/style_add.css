@@ -31,3 +31,18 @@
     justify-content: space-between;
     align-items: center;
 }
+section {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+form{
+    border: 1px solid black;
+    width: 30%;
+    height: 100%;
+}
+
+
