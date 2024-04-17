@@ -13,7 +13,7 @@ magasins.map(magasin =>
                         <p>Sidi Maarouf</p>
                     </div>
                     <div class="cardpart1" id="marg1">
-                        <img src="../asset/logo/location.png" alt="" class="subicon">
+                        <i class="ri-map-pin-line mt-n3"></i>
                         <p>Casablanca, Sidi Maarouf</p>
                     </div>
                 </div>
