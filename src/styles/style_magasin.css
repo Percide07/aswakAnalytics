@@ -1,0 +1,35 @@
+:root {
+    --primaryColor : #dc97ff;
+    --boxShadow : #8b2fc9;
+}
+@media screen and (min-width: 768px) {
+    :root{
+        --primaryColor : #310055;
+        --boxShadow : #5a108f;
+    }
+    
+}
+
+#nav_layout{
+    height: 90px;
+    
+}
+#container{
+    color: white;
+    background-color: #310055;
+    height: 70px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.list_container{
+    width : 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
