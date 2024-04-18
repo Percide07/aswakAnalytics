@@ -1,0 +1,47 @@
+:root {
+    --primaryColor : #dc97ff;
+    --boxShadow : #8b2fc9;
+}
+@media screen and (min-width: 768px) {
+    :root{
+        --primaryColor : #310055;
+        --boxShadow : #5a108f;
+    }
+    
+}
+
+#nav_layout{
+    height: 90px;
+    
+}
+#container{
+    color: white;
+    background-color: #6818a5;
+    height: 70px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+.list_container{
+    width : 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+section {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 30%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+

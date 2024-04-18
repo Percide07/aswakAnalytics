@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style_magasin.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style_magasin.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <title>Magasins</title>
+<<<<<<< HEAD
+    
+=======
+    <script src="./js/magasin.js" defer></script>
+>>>>>>> a47058c7e3833653e77825666fbb57a88b330d5a
 </head>
 <body>
     <nav class="navbar bg-" id="nav_layout">
@@ -15,17 +24,33 @@
             </a>
             
             <div class="list_container">
-                <a href="#" style="color: white;">Dashboard</a>
-                <a href="#" style="color: white;">Magasins</a>
-                <a href="#" style="color: white;">Ajouter un magasins</a>
+                <a href="dashboard.html" style="color: white;">Dashboard</a>
+                <a href="magasin.html" style="color: white;">Magasins</a>
+                <a href="add_magasin.html" style="color: white;">Ajouter un magasin</a>
             </div>
-            <img src="asset/logo/exit.png" alt="exit icon" style="width: 40px; height: 40px;">
+            <img src="../asset/logo/exit.png" alt="exit icon" style="width: 40px; height: 40px;">
         </div>
     </nav>
     <section>
         <h2 style="text-align: center;">Listes des Magasins</h2>
-        <div>
-            
+        <div class="sect1">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Nos Villes 
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Casablanca</a></li>
+                    <li><a class="dropdown-item" href="#">Agadir</a></li>
+                    <li><a class="dropdown-item" href= "#">Rabat</a></li>
+                </ul>
+            </div>
+            <hr>
+            <img src="../asset/logo/list.png" alt="" class="list">
+            <img src="../asset/logo/list2.png" alt="" class="list">
+        </div>
+        <div id="magasin-list" class="container-fluid d-flex flex-wrap justify-content-center">
+
+          
         </div>
     </section>
 </body>
