@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="styles/style_dash.css">
     <script src="store.js" type="module"></script>
     <link rel="stylesheet" href="styles/style_index.css">
-    <script src="./js/index.js" defer></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="./js/index.js" type="module" defer></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+
 </head>
 <body>
-    <nav class="navbar bg-" id="nav_layout">
+    <nav class="navbar" id="nav_layout">
         <div class="container-fluid shadow-lg p-3 mb-5 " id="container">
        
 
@@ -29,32 +34,66 @@
         </div>
     </nav>
     <section class="container-fluid justify-content-center d-flex flex-column">
-        <div class="row-md-2">
+        <div class="container-fluid d-flex flex-column  p-2 ">
+            <div class="col-lg-12 d-flex justify-content-between flex-row">
+                <nav>
+                    
+                        <a href="">CA</a>
+                        <a href="">Effectifs</a>
+                        <a href="">Surface</a>
+                    
+                </nav>
+                <input type="month" name="selectedMonth" id="selectedMonth" min="2020-01" max="2024-12">
 
-            <input class="px-n4 " type="number" min="2020" max="2099" step="1" value="2020" name="year" id="yearInput" />
-            <div class="d-none ">
-                <ul class="list-group ">
-                    <li class="list-group-item pr-3">2020</li>
-                    <li class="list-group-item  pr-3">2021</li>
-                    <li class="list-group-item pr-3">2022</li>
-                    <li class="list-group-item pr-3">2023</li>
-                    <li class="list-group-item pr-3">2024</li>
-                  </ul>
             </div>
         </div>
+        <div class="row container justify-content-around my-4">
+            <div class="col-lg bg-light mx-1 shadow rounded-lg border " style="height: 200px;">
+                <canvas class="" id="CAMoyen" style="width: 100%; height: 100%;"></canvas>
+            </div>
+            <div class="col-lg mx-1  rounded-lg" style="height: 100px;">
+                
+                <div class="col-lg shadow bg-light mx-1 mb-1 border rounded-lg " style="height: 100px;">
+                    <h5 class="mt-4 ml-1">Taux de Variation</h5>
+                    <span id="variation"></span>
+                </div>
+                <div class="col-lg bg-light mx-1 shadow border rounded-lg" style="height: 100px;">
+                    <h5 class="mt-4 ml-1">Ecart Type</h5>
+                    <span id="standardDeviation"></span>
+                    
+                </div>
+            </div>
+            <div class="col-lg bg-light shadow mx-1 border rounded-lg" style="height: 200px;">
+                <canvas class="" id="CAStats" style="width: 100%; height: 100%;"></canvas>
+                
+            </div>
+            <div class="col-lg mx-1  rounded-lg" style="height: 100px;">
+                
+                <div class="col-lg shadow bg-light mx-1 mb-1 borderrounded-lg" style="height: 100px;">
+                    <h5 class="pt-4">Le Meilleur Magasin</h5>
+                    
+                    <span id="bestNom"></span>
+                </div>
+                <div class="col-lg shadow bg-light mx-1 rounded-lg border" style="height: 100px;">
+                    <h5 class="pt-4">La Meilleure Location </h5>
+                    <span id="bestLocation"></span>
+                </div>
+            </div>
+          
+        </div>
+        <div class="row container d-flex justify-content-center flex-row px-4" style="height: 300px;">
+            <div class="col-lg shadow p-4 px-6 bg-light rounded-lg" style="width: 600px;height: 600px;">
+                <canvas class="" id="CANom" style="width: 100%; height: 100%;"></canvas>
+            </div>
+            <div class="col-lg shadow p-4 px-6 bg-light rounded-lg" style="width: 600px;height: 600px;">
+                <canvas class="" id="CALocation" style="width: 100%; height: 100%;"></canvas>
+            </div>
+            
+        </div>
         
-        <div class="d-block w-100 h-100 col-md-3">
-            <canvas class="" id="CAChart" width="1" height="1"></canvas>
-        </div>
-        <div class="d-block w-100 h-100 col-md-3">
-            <canvas class="" id="effChart" width="1" height="1"></canvas>
-        </div>
-        <div class="d-block w-100 h-100 col-md-3">
-            <canvas class="" id="surfaceChart" width="1" height="1"></canvas>
-        </div>
         
     </section>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-   
+    
 </body>
 </html>
