@@ -12,21 +12,37 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <title>Details</title>
-
     <link rel="stylesheet" href="styles/detailsStyle.css">
+    <link rel="stylesheet" href="styles/style_dash.css">
+
   </head>
   <body>
-    
+    <nav class="navbar" id="nav_layout">
+        <div class="container-fluid shadow-lg p-3 mb-5 " id="container">
+       
 
-    <section class="p-3">
+            <a class="navbar-brand" href="#">
+                <img src="../asset/logo/fav.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top rounded-circle">
+            </a>
+            
+            <div class="list_container">
+                <a href="index.html?type=CA" style="color: white;">Dashboard</a>
+                <a href="magasin.html" style="color: white;">Magasins</a>
+                <a href="add_magasin.html" style="color: white;">Ajouter un magasin</a>
+            </div>
+            <img src="../asset/logo/exit.png" alt="exit icon" style="width: 40px; height: 40px;">
+        </div>
+    </nav>
 
-        <div class="row">
+    <section class="p-3 container-fluid" >
+
+        <div class="row container-fluid">
             <div class="col-12">
                 <button class="btn btn-primary newDetail" data-bs-toggle="modal" data-bs-target="#userForm">New Details <i class="bi bi-people"></i></button>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row container-fluid">
             <div class="col-12">
                 <table class="table table-striped table-hover mt-3 text-center table-bordered">
 
@@ -133,6 +149,6 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <script src="Data/AjouterDet.js"></script>
+    <script src="Data/AjouterDetails.js"></script>
   </body>
 </html>

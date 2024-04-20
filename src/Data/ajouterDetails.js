@@ -8,7 +8,20 @@ const modal = document.getElementById("userForm");
 const modalTitle = document.querySelector("#userForm .modal-title");
 const newUserBtn = document.querySelector(".newDetail");
 
-let getData = localStorage.getItem('magazinsDetails') ? JSON.parse(localStorage.getItem('magazinsDetails')) : [];
+magasins = localStorage.getItem('localMagasins') ? JSON.parse(localStorage.getItem('localMagasins')) : [];
+console.log(magasins)
+// Get the current URL
+const urlParams = new URLSearchParams(window.location.search);
+
+// Get individual parameter values
+const magasinNom = urlParams.get('magasin');
+const magasinLocation = urlParams.get('location');
+console.log(magasinLocation )
+console.log(magasinNom )
+
+const selectedMagasin = magasins.filter(magasin => magasin.nom == magasinNom && magasin.location == magasinLocation).map(magasin => magasin.donnees)[0]
+const magasinId = magasins.filter(magasin => magasin.nom == magasinNom && magasin.location == magasinLocation)[0].id
+console.log(selectedMagasin)
 
 let isEdit = false;
 let editId;
@@ -36,19 +49,22 @@ form.addEventListener('submit', (event) => {
     showInfo();
 });
 
+console.log(selectedMagasin)
 function showInfo() {
   // Clear previous details
   details.innerHTML = "";
 
-  getData.forEach((detail, index) => {
+  selectedMagasin.forEach((donnee, index) => {
+    console.log(donnee.annee)
       const row = document.createElement("tr");
       row.innerHTML = `
-          <td>${index + 1}</td>
-          <td>${detail.CA}</td>
-          <td>${detail.effictif}</td>
-          <td>${detail.surface}</td>
+          
+          <td>${donnee.annee}</td>
+          <td>${donnee.CA}</td>
+          <td>${donnee.effictifs}</td>
+          <td>${donnee.surface}</td>
           <td>
-              <button class="btn btn-primary" onclick="editInfo(${index}, '${detail.CA}', '${detail.effictif}', '${detail.surface}')" data-bs-toggle="modal" data-bs-target="#userForm"> <i class="bi bi-pencil-square"></i></button>
+              <button class="btn btn-primary" onclick="editInfo(${index}, '${donnee.CA}', '${donnee.effictif}', '${donnee.surface}')" data-bs-toggle="modal" data-bs-target="#userForm"> <i class="bi bi-pencil-square"></i></button>
               <button class="btn btn-danger" onclick="deleteInfo(${index})"><i class="bi bi-trash"></i></button>
           </td>
       `;
