@@ -3,24 +3,29 @@ console.log(magasins[0])
 console.log(document.querySelector(".container"))
 magasins.map(magasin => 
     document.getElementById("magasin-list").innerHTML += `
-             <div class="card1 col-xs-2 m-4">
+             <div class="card1 col-xs-2 m-4 pb-5">
              <div class="sub1 overflow-hidden" >
              <img class="" src="${magasin.img}" alt="image" />
          </div>
          
                 <div class="sub2">
-                    <div class="subcard2">
+                    <div>
+                        <div class="subcard2">
+                        <h3>${magasin.nom}<h3/>
                     </div>
                     <div class="cardpart1" id="marg1">
                         <i class="ri-map-pin-line mt-n3"></i>
-                        <h4>${magasin.location}</h4>
+                        <p>${magasin.location}</p>
+                            <div>
+                            <div class="cardpart2" id="marg1">
+                                 <p>${String(magasin.dateOuverture)}</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                        <button class="d-flex flex-row btn btn-primary mr-3" data-magasin=${magasin.nom} data-location=${magasin.location} >Dashboard <i class="ri-arrow-right-line"></i></button>
+                        </div>
                     </div>
-                    <div>
-                    <button data-magasin=${magasin.nom} data-location=${magasin.location} class="dashboard-btn btn btn-primary">Dashboard <i class="ri-arrow-right-line"></i></button>
-                    <div class="cardpart2" id="marg1">
-                        <p>${String(magasin.dateOuverture)}</p>
-                    </div>
-                </div>
             </div>
     `
 )
