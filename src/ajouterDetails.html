@@ -7,7 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <!--Bootstrap 5 icons CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
@@ -26,19 +29,19 @@
             </a>
             
             <div class="list_container">
-                <a href="index.html?type=CA" style="color: white;">Dashboard</a>
+                <a href="index.html?type=CA&annee=2014" style="color: white;">Dashboard</a>
                 <a href="magasin.html" style="color: white;">Magasins</a>
                 <a href="add_magasin.html" style="color: white;">Ajouter un magasin</a>
             </div>
-            <img src="../asset/logo/exit.png" alt="exit icon" style="width: 40px; height: 40px;">
-        </div>
+            <i style="font-size: 30px;" class="ri-logout-box-r-line"></i>
+            </div>
     </nav>
 
     <section class="p-3 container-fluid" >
 
         <div class="row container-fluid">
             <div class="col-12">
-                <button class="btn btn-primary newDetail" data-bs-toggle="modal" data-bs-target="#userForm">New Details <i class="bi bi-people"></i></button>
+                <button style="background-color: #6818A5;color:white;" class="btn newDetail" data-bs-toggle="modal" data-bs-target="#ajouterForm">New Details <i class="bi bi-people"></i></button>
             </div>
         </div>
 
@@ -66,7 +69,7 @@
 
 
     <!--Modal Form-->
-    <div class="modal fade" id="userForm">
+    <div class="modal fade" id="ajouterForm">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
 
@@ -115,76 +118,44 @@
     </div>
     
     <!--  Data -->
-    <div class="modal fade" id="readData">
+    <div class="modal fade" id="modifierForm">
       <div class="modal-dialog modal-dialog-centered modal-lg">
           <div class="modal-content">
               
-              <form action="#" id="myForm">
-              <div class="modal-header">
-                  <h4 class="modal-title">Profile</h4>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-
-              <div class="modal-body">
-
-
-                          
+              <form id="modifierModal">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Profile</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">   
                           <div>
                               <label for="CA">chiffre_Affaire</label>
-                              <input type="number" name="" id="showChiffre" disabled>
+                              <input type="number" name="" id="showChiffre" >
                           </div>
                           <div>
                               <label for="effictif">Effictif:</label>
-                              <input type="number" name="" id="showEffictif" disabled>
+                              <input type="number" name="" id="showEffectif" >
                           </div>
                           <div>
                               <label for="surface">Surface:</label>
-                              <input type="number" name="" id="showSurface" disabled>
+                              <input type="number" name="" id="showSurface" >
                           </div>
                          
-                      </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary submit">Submit</button>
+                    </div>
 
                   </form>
               </div>
           </div>
       </div>
-      <div class="modal fade" id="readData">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                
-                <form action="#" id="myForm">
-                <div class="modal-header">
-                    <h4 class="modal-title">Profile</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-  
-                <div class="modal-body">
-  
-  
-                            
-                            <div>
-                                <label for="CA">chiffre_Affaire</label>
-                                <input type="number" name="" id="showChiffre" disabled>
-                            </div>
-                            <div>
-                                <label for="effictif">Effictif:</label>
-                                <input type="number" name="" id="showEffictif" disabled>
-                            </div>
-                            <div>
-                                <label for="surface">Surface:</label>
-                                <input type="number" name="" id="showSurface" disabled>
-                            </div>
-                           
-                        </div>
-  
-                    </form>
-                </div>
-            </div>
-        </div>
+     
   </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <script src="Data/AjouterDetails.js"></script>
+    <script src="js/ajouterDetails.js"></script>
   </body>
 </html>

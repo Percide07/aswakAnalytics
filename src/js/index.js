@@ -34,7 +34,7 @@ const CANom = new Chart(CANomChart, {
             label: 'CA x nom de Magasin',
             data: CaFilteredMagasinsByNom,
             backgroundColor: [
-                'rgb(255, 99, 132)',
+                '#6818A5',
             ],
         }],
     },
@@ -58,7 +58,7 @@ const CALocation = new Chart(CALocationChart, {
             label: 'CA x location de Magasin',
             data: CAFilteredMagasinsByLocation,
             backgroundColor: [
-                'rgb(255, 99, 132)'
+                '#6818A5',
               
             ],
           
@@ -96,7 +96,7 @@ const CAMoyen = new Chart(CAMoyenChart,{
       label: 'Taux',
       data: [statisticsFunctions.getTotal(CAFilteredMagasinsByYear),statisticsFunctions.getMean(CAFilteredMagasinsByYear),statisticsFunctions.getMax(CAFilteredMagasinsByYear)],
       backgroundColor: [
-        'rgb(255, 99, 132)',
+        '#6818A5',
         'rgb(54, 162, 235)',
         'rgb(255, 205, 86)'
       ],
@@ -119,11 +119,11 @@ const CAStats = new Chart(CAStatsChart,{
           label: 'Distribution',
           data: [statisticsFunctions.getMean(CAFilteredMagasinsByYear),statisticsFunctions.getMax(CAFilteredMagasinsByYear),statisticsFunctions.getMin(CAFilteredMagasinsByYear),statisticsFunctions.getMode(CAFilteredMagasinsByYear),statisticsFunctions.getMedian(CAFilteredMagasinsByYear)],
           backgroundColor: [
-            'rgb(255, 99, 132)',
+            '#6818A5',
+            '#008000',
+            'rgb(54, 162, 235)',
             'rgb(75, 192, 192)',
-            'rgb(255, 205, 86)',
             'rgb(201, 203, 207)',
-            'rgb(54, 162, 235)'
           ]
         }]
       },

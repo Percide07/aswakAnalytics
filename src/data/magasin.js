@@ -1,299 +1,299 @@
 export const localMagasins = [
     {
         "id": 1,
-        "nom": "Carrefour",
-        "img": "https://www.maghreb-intelligence.com/wp-content/uploads/2023/12/6876d973bdb26f7d23ebb6a7102f3ae2.jpg",
-        "location": "Tangier",
-        "dateOuverture": "2022-10-31",
+        "nom": "BIM",
+        "img": "../asset/magasin-images/image5.jpg",
+        "location": "Oujda",
+        "dateOuverture": "2022-09-22",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 8370000,
+                "CA": 6048000,
+                "effectifs": 19,
+                "surface": 960
+            },
+            {
+                "annee": 2015,
+                "CA": 9612000,
+                "effectifs": 23,
+                "surface": 1000
+            },
+            {
+                "annee": 2016,
+                "CA": 8100000,
                 "effectifs": 28,
                 "surface": 1050
             },
             {
-                "annee": 2015,
-                "CA": 7938000,
-                "effectifs": 29,
-                "surface": 1060
-            },
-            {
-                "annee": 2016,
-                "CA": 10044000,
-                "effectifs": 21,
-                "surface": 980
-            },
-            {
                 "annee": 2017,
-                "CA": 9126000,
-                "effectifs": 25,
-                "surface": 1020
+                "CA": 7830000,
+                "effectifs": 15,
+                "surface": 920
             },
             {
                 "annee": 2018,
-                "CA": 7290000,
-                "effectifs": 13,
-                "surface": 900
+                "CA": 7182000,
+                "effectifs": 32,
+                "surface": 1090
             },
             {
                 "annee": 2019,
-                "CA": 7614000,
-                "effectifs": 27,
-                "surface": 1040
+                "CA": 5832000,
+                "effectifs": 14,
+                "surface": 910
             },
             {
                 "annee": 2020,
-                "CA": 7938000,
-                "effectifs": 29,
-                "surface": 1060
+                "CA": 8802000,
+                "effectifs": 19,
+                "surface": 960
             },
             {
                 "annee": 2021,
-                "CA": 5778000,
-                "effectifs": 31,
-                "surface": 1080
-            },
-            {
-                "annee": 2022,
-                "CA": 6101999,
+                "CA": 7344000,
                 "effectifs": 24,
                 "surface": 1010
             },
             {
+                "annee": 2022,
+                "CA": 8694000,
+                "effectifs": 19,
+                "surface": 960
+            },
+            {
                 "annee": 2023,
-                "CA": 7290000,
+                "CA": 8154000,
                 "effectifs": 16,
                 "surface": 930
             },
             {
                 "annee": 2024,
-                "CA": 10638000,
-                "effectifs": 14,
-                "surface": 910
+                "CA": 6264000,
+                "effectifs": 18,
+                "surface": 950
             }
         ]
     },
     {
         "id": 2,
-        "nom": "BIM",
-        "img": "https://i0.wp.com/leseco.ma/wp-content/uploads/2020/12/BIM.jpg?fit=1200%2C600&ssl=1",
-        "location": "Errachidia",
-        "dateOuverture": "2022-03-10",
+        "nom": "Aswak Assalam",
+        "img": "../asset/magasin-images/image7.jpg",
+        "location": "Khouribga",
+        "dateOuverture": "2022-01-15",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 5375000,
-                "effectifs": 25,
-                "surface": 850
-            },
-            {
-                "annee": 2015,
-                "CA": 5074000,
-                "effectifs": 19,
-                "surface": 790
-            },
-            {
-                "annee": 2016,
-                "CA": 5762000,
+                "CA": 5676000,
                 "effectifs": 15,
                 "surface": 750
             },
             {
-                "annee": 2017,
-                "CA": 7998000,
-                "effectifs": 25,
-                "surface": 850
-            },
-            {
-                "annee": 2018,
-                "CA": 7052000,
+                "annee": 2015,
+                "CA": 5977000,
                 "effectifs": 13,
                 "surface": 730
             },
             {
-                "annee": 2019,
-                "CA": 8213000,
-                "effectifs": 29,
-                "surface": 890
+                "annee": 2016,
+                "CA": 4644000,
+                "effectifs": 25,
+                "surface": 850
             },
             {
-                "annee": 2020,
-                "CA": 8256000,
-                "effectifs": 20,
-                "surface": 800
-            },
-            {
-                "annee": 2021,
-                "CA": 4945000,
+                "annee": 2017,
+                "CA": 5934000,
                 "effectifs": 11,
                 "surface": 710
             },
             {
+                "annee": 2018,
+                "CA": 5547000,
+                "effectifs": 22,
+                "surface": 820
+            },
+            {
+                "annee": 2019,
+                "CA": 8471000,
+                "effectifs": 24,
+                "surface": 840
+            },
+            {
+                "annee": 2020,
+                "CA": 5031000,
+                "effectifs": 18,
+                "surface": 780
+            },
+            {
+                "annee": 2021,
+                "CA": 7052000,
+                "effectifs": 19,
+                "surface": 790
+            },
+            {
                 "annee": 2022,
-                "CA": 6837000,
-                "effectifs": 17,
-                "surface": 770
+                "CA": 7052000,
+                "effectifs": 30,
+                "surface": 900
             },
             {
                 "annee": 2023,
-                "CA": 4343000,
-                "effectifs": 23,
-                "surface": 830
+                "CA": 6149000,
+                "effectifs": 25,
+                "surface": 850
             },
             {
                 "annee": 2024,
-                "CA": 5934000,
-                "effectifs": 20,
-                "surface": 800
+                "CA": 4687000,
+                "effectifs": 28,
+                "surface": 880
             }
         ]
     },
     {
         "id": 3,
-        "nom": "Atacadao",
-        "img": "https://www.lineaires.com/var/site/storage/images/_aliases/large/4/7/8/1/5811874-1-fre-FR/Atacadao.jpg",
-        "location": "Beni Mellal",
-        "dateOuverture": "2022-06-08",
+        "nom": "Kitea",
+        "img": "../asset/magasin-images/image10.jpeg",
+        "location": "Ouarzazate",
+        "dateOuverture": "2022-03-10",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 5734000,
-                "effectifs": 20,
-                "surface": 800
+                "CA": 7097000,
+                "effectifs": 14,
+                "surface": 740
             },
             {
                 "annee": 2015,
-                "CA": 8413000,
+                "CA": 8836000,
                 "effectifs": 11,
                 "surface": 710
             },
             {
                 "annee": 2016,
-                "CA": 8178000,
-                "effectifs": 11,
-                "surface": 710
-            },
-            {
-                "annee": 2017,
-                "CA": 7708000,
-                "effectifs": 12,
-                "surface": 720
-            },
-            {
-                "annee": 2018,
-                "CA": 5922000,
-                "effectifs": 16,
-                "surface": 760
-            },
-            {
-                "annee": 2019,
-                "CA": 4888000,
-                "effectifs": 25,
-                "surface": 850
-            },
-            {
-                "annee": 2020,
-                "CA": 7285000,
-                "effectifs": 9,
-                "surface": 690
-            },
-            {
-                "annee": 2021,
-                "CA": 9259000,
+                "CA": 5969000,
                 "effectifs": 18,
                 "surface": 780
             },
             {
-                "annee": 2022,
-                "CA": 4841000,
+                "annee": 2017,
+                "CA": 7426000,
+                "effectifs": 19,
+                "surface": 790
+            },
+            {
+                "annee": 2018,
+                "CA": 5734000,
+                "effectifs": 9,
+                "surface": 690
+            },
+            {
+                "annee": 2019,
+                "CA": 5546000,
+                "effectifs": 14,
+                "surface": 740
+            },
+            {
+                "annee": 2020,
+                "CA": 6580000,
+                "effectifs": 26,
+                "surface": 860
+            },
+            {
+                "annee": 2021,
+                "CA": 7285000,
                 "effectifs": 27,
                 "surface": 870
             },
             {
+                "annee": 2022,
+                "CA": 9306000,
+                "effectifs": 26,
+                "surface": 860
+            },
+            {
                 "annee": 2023,
-                "CA": 7003000,
-                "effectifs": 12,
-                "surface": 720
+                "CA": 9118000,
+                "effectifs": 28,
+                "surface": 880
             },
             {
                 "annee": 2024,
-                "CA": 7708000,
-                "effectifs": 8,
-                "surface": 680
+                "CA": 7614000,
+                "effectifs": 19,
+                "surface": 790
             }
         ]
     },
     {
         "id": 4,
-        "nom": "Hanouty",
-        "img": "https://static.yabiladi.com/files/articles/d69b5b6855dda3316e71eb1262ac7d02.jpg",
-        "location": "Errachidia",
-        "dateOuverture": "2022-01-15",
+        "nom": "Kitea",
+        "img": "../asset/magasin-images/image10.jpeg",
+        "location": "Kenitra",
+        "dateOuverture": "2022-09-22",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 9555000,
-                "effectifs": 23,
-                "surface": 1090
+                "CA": 8869000,
+                "effectifs": 28,
+                "surface": 1140
             },
             {
                 "annee": 2015,
-                "CA": 8232000,
-                "effectifs": 32,
-                "surface": 1180
-            },
-            {
-                "annee": 2016,
-                "CA": 5243000,
-                "effectifs": 17,
-                "surface": 1030
-            },
-            {
-                "annee": 2017,
-                "CA": 8624000,
-                "effectifs": 26,
-                "surface": 1120
-            },
-            {
-                "annee": 2018,
-                "CA": 9457000,
-                "effectifs": 25,
-                "surface": 1110
-            },
-            {
-                "annee": 2019,
-                "CA": 7546000,
-                "effectifs": 29,
-                "surface": 1150
-            },
-            {
-                "annee": 2020,
-                "CA": 5194000,
-                "effectifs": 14,
-                "surface": 1000
-            },
-            {
-                "annee": 2021,
-                "CA": 7399000,
-                "effectifs": 16,
-                "surface": 1020
-            },
-            {
-                "annee": 2022,
-                "CA": 9653000,
+                "CA": 9604000,
                 "effectifs": 30,
                 "surface": 1160
             },
             {
+                "annee": 2016,
+                "CA": 8330000,
+                "effectifs": 26,
+                "surface": 1120
+            },
+            {
+                "annee": 2017,
+                "CA": 9163000,
+                "effectifs": 15,
+                "surface": 1010
+            },
+            {
+                "annee": 2018,
+                "CA": 9359000,
+                "effectifs": 23,
+                "surface": 1090
+            },
+            {
+                "annee": 2019,
+                "CA": 9457000,
+                "effectifs": 18,
+                "surface": 1040
+            },
+            {
+                "annee": 2020,
+                "CA": 9359000,
+                "effectifs": 32,
+                "surface": 1180
+            },
+            {
+                "annee": 2021,
+                "CA": 9653000,
+                "effectifs": 15,
+                "surface": 1010
+            },
+            {
+                "annee": 2022,
+                "CA": 5292000,
+                "effectifs": 21,
+                "surface": 1070
+            },
+            {
                 "annee": 2023,
-                "CA": 5194000,
-                "effectifs": 17,
-                "surface": 1030
+                "CA": 7938000,
+                "effectifs": 30,
+                "surface": 1160
             },
             {
                 "annee": 2024,
-                "CA": 6664000,
+                "CA": 5390000,
                 "effectifs": 28,
                 "surface": 1140
             }
@@ -301,1876 +301,1876 @@ export const localMagasins = [
     },
     {
         "id": 5,
-        "nom": "DIA",
-        "img": "https://www.lsa-conso.fr/mediatheque/3/0/5/000205503_896x598_c.jpg",
-        "location": "Khenifra",
-        "dateOuverture": "2022-06-08",
+        "nom": "Atacadao",
+        "img": "../asset/magasin-images/image6.jpg",
+        "location": "Ouarzazate",
+        "dateOuverture": "2022-04-05",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 4356000,
-                "effectifs": 5,
-                "surface": 450
+                "CA": 4290000,
+                "effectifs": 2,
+                "surface": 420
             },
             {
                 "annee": 2015,
-                "CA": 4884000,
-                "effectifs": 8,
-                "surface": 480
-            },
-            {
-                "annee": 2016,
-                "CA": 5445000,
-                "effectifs": 10,
-                "surface": 500
-            },
-            {
-                "annee": 2017,
-                "CA": 6501000,
-                "effectifs": 11,
-                "surface": 510
-            },
-            {
-                "annee": 2018,
-                "CA": 5115000,
-                "effectifs": 1,
-                "surface": 410
-            },
-            {
-                "annee": 2019,
-                "CA": 5478000,
-                "effectifs": 12,
-                "surface": 520
-            },
-            {
-                "annee": 2020,
-                "CA": 3794999,
-                "effectifs": 3,
-                "surface": 430
-            },
-            {
-                "annee": 2021,
-                "CA": 5676000,
+                "CA": 4785000,
                 "effectifs": 4,
                 "surface": 440
             },
             {
+                "annee": 2016,
+                "CA": 3432000,
+                "effectifs": 15,
+                "surface": 550
+            },
+            {
+                "annee": 2017,
+                "CA": 4917000,
+                "effectifs": 14,
+                "surface": 540
+            },
+            {
+                "annee": 2018,
+                "CA": 3564000,
+                "effectifs": 18,
+                "surface": 580
+            },
+            {
+                "annee": 2019,
+                "CA": 3894000,
+                "effectifs": 14,
+                "surface": 540
+            },
+            {
+                "annee": 2020,
+                "CA": 6006000,
+                "effectifs": 5,
+                "surface": 450
+            },
+            {
+                "annee": 2021,
+                "CA": 3597000,
+                "effectifs": 7,
+                "surface": 470
+            },
+            {
                 "annee": 2022,
-                "CA": 4059000,
-                "effectifs": 19,
-                "surface": 590
+                "CA": 6204000,
+                "effectifs": 7,
+                "surface": 470
             },
             {
                 "annee": 2023,
-                "CA": 3993000,
-                "effectifs": 11,
-                "surface": 510
+                "CA": 6039000,
+                "effectifs": 6,
+                "surface": 460
             },
             {
                 "annee": 2024,
-                "CA": 4752000,
-                "effectifs": 5,
-                "surface": 450
+                "CA": 6369000,
+                "effectifs": 6,
+                "surface": 460
             }
         ]
     },
     {
         "id": 6,
-        "nom": "Socoma",
-        "img": "https://socoma-service.fr/wp-content/uploads/2020/09/socoma2020-scaled.jpg",
-        "location": "Marrakech",
-        "dateOuverture": "2022-07-17",
+        "nom": "Carrefour",
+        "img": "../asset/magasin-images/image2.jpg",
+        "location": "Khouribga",
+        "dateOuverture": "2022-12-25",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 6161000,
-                "effectifs": 18,
-                "surface": 1210
+                "CA": 11224000,
+                "effectifs": 35,
+                "surface": 1380
             },
             {
                 "annee": 2015,
-                "CA": 6710000,
+                "CA": 10553000,
+                "effectifs": 24,
+                "surface": 1270
+            },
+            {
+                "annee": 2016,
+                "CA": 8967000,
+                "effectifs": 26,
+                "surface": 1290
+            },
+            {
+                "annee": 2017,
+                "CA": 10736000,
+                "effectifs": 35,
+                "surface": 1380
+            },
+            {
+                "annee": 2018,
+                "CA": 11895000,
+                "effectifs": 28,
+                "surface": 1310
+            },
+            {
+                "annee": 2019,
+                "CA": 11834000,
+                "effectifs": 22,
+                "surface": 1250
+            },
+            {
+                "annee": 2020,
+                "CA": 9211000,
                 "effectifs": 23,
                 "surface": 1260
             },
             {
-                "annee": 2016,
-                "CA": 9943000,
-                "effectifs": 37,
-                "surface": 1400
+                "annee": 2021,
+                "CA": 11407000,
+                "effectifs": 23,
+                "surface": 1260
             },
             {
-                "annee": 2017,
-                "CA": 10675000,
-                "effectifs": 32,
-                "surface": 1350
-            },
-            {
-                "annee": 2018,
-                "CA": 7259000,
-                "effectifs": 31,
-                "surface": 1340
-            },
-            {
-                "annee": 2019,
-                "CA": 9821000,
+                "annee": 2022,
+                "CA": 7564000,
                 "effectifs": 19,
                 "surface": 1220
             },
             {
-                "annee": 2020,
-                "CA": 8235000,
-                "effectifs": 33,
-                "surface": 1360
-            },
-            {
-                "annee": 2021,
-                "CA": 9516000,
-                "effectifs": 24,
-                "surface": 1270
-            },
-            {
-                "annee": 2022,
-                "CA": 6588000,
+                "annee": 2023,
+                "CA": 11712000,
                 "effectifs": 37,
                 "surface": 1400
             },
             {
-                "annee": 2023,
-                "CA": 10126000,
-                "effectifs": 24,
-                "surface": 1270
-            },
-            {
                 "annee": 2024,
-                "CA": 10248000,
-                "effectifs": 30,
-                "surface": 1330
+                "CA": 7808000,
+                "effectifs": 28,
+                "surface": 1310
             }
         ]
     },
     {
         "id": 7,
-        "nom": "Carrefour",
-        "img": "https://www.maghreb-intelligence.com/wp-content/uploads/2023/12/6876d973bdb26f7d23ebb6a7102f3ae2.jpg",
-        "location": "Berkane",
+        "nom": "Hanouty",
+        "img": "../asset/magasin-images/image4.jpg",
+        "location": "Larache",
         "dateOuverture": "2022-01-15",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 5565000,
-                "effectifs": 17,
-                "surface": 950
+                "CA": 9593000,
+                "effectifs": 28,
+                "surface": 1060
             },
             {
                 "annee": 2015,
-                "CA": 9858000,
-                "effectifs": 15,
-                "surface": 930
-            },
-            {
-                "annee": 2016,
-                "CA": 6201000,
-                "effectifs": 17,
-                "surface": 950
-            },
-            {
-                "annee": 2017,
-                "CA": 8639000,
+                "CA": 8957000,
                 "effectifs": 25,
                 "surface": 1030
             },
             {
+                "annee": 2016,
+                "CA": 7526000,
+                "effectifs": 24,
+                "surface": 1020
+            },
+            {
+                "annee": 2017,
+                "CA": 5777000,
+                "effectifs": 19,
+                "surface": 970
+            },
+            {
                 "annee": 2018,
-                "CA": 6943000,
-                "effectifs": 14,
-                "surface": 920
+                "CA": 9169000,
+                "effectifs": 30,
+                "surface": 1080
             },
             {
                 "annee": 2019,
-                "CA": 5300000,
-                "effectifs": 12,
-                "surface": 900
-            },
-            {
-                "annee": 2020,
-                "CA": 8533000,
+                "CA": 6625000,
                 "effectifs": 22,
                 "surface": 1000
             },
             {
+                "annee": 2020,
+                "CA": 6784000,
+                "effectifs": 12,
+                "surface": 900
+            },
+            {
                 "annee": 2021,
-                "CA": 5406000,
-                "effectifs": 27,
-                "surface": 1050
+                "CA": 7208000,
+                "effectifs": 17,
+                "surface": 950
             },
             {
                 "annee": 2022,
-                "CA": 9116000,
-                "effectifs": 19,
-                "surface": 970
+                "CA": 9911000,
+                "effectifs": 14,
+                "surface": 920
             },
             {
                 "annee": 2023,
-                "CA": 6307000,
-                "effectifs": 19,
-                "surface": 970
+                "CA": 5936000,
+                "effectifs": 31,
+                "surface": 1090
             },
             {
                 "annee": 2024,
-                "CA": 6572000,
-                "effectifs": 27,
-                "surface": 1050
+                "CA": 6731000,
+                "effectifs": 17,
+                "surface": 950
             }
         ]
     },
     {
         "id": 8,
-        "nom": "Hanouty",
-        "img": "https://static.yabiladi.com/files/articles/d69b5b6855dda3316e71eb1262ac7d02.jpg",
-        "location": "Errachidia",
-        "dateOuverture": "2022-04-05",
+        "nom": "BIM",
+        "img": "../asset/magasin-images/image5.jpg",
+        "location": "Taza",
+        "dateOuverture": "2022-02-28",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 7000000,
-                "effectifs": 31,
-                "surface": 1200
+                "CA": 7250000,
+                "effectifs": 19,
+                "surface": 1080
             },
             {
                 "annee": 2015,
-                "CA": 6000000,
-                "effectifs": 19,
-                "surface": 1080
-            },
-            {
-                "annee": 2016,
-                "CA": 9650000,
-                "effectifs": 16,
-                "surface": 1050
-            },
-            {
-                "annee": 2017,
-                "CA": 7600000,
-                "effectifs": 19,
-                "surface": 1080
-            },
-            {
-                "annee": 2018,
-                "CA": 7550000,
-                "effectifs": 27,
-                "surface": 1160
-            },
-            {
-                "annee": 2019,
-                "CA": 5600000,
-                "effectifs": 21,
-                "surface": 1100
-            },
-            {
-                "annee": 2020,
-                "CA": 7600000,
+                "CA": 6600000,
                 "effectifs": 24,
                 "surface": 1130
             },
             {
-                "annee": 2021,
-                "CA": 5450000,
-                "effectifs": 21,
-                "surface": 1100
+                "annee": 2016,
+                "CA": 9350000,
+                "effectifs": 20,
+                "surface": 1090
             },
             {
-                "annee": 2022,
-                "CA": 10000000,
-                "effectifs": 15,
-                "surface": 1040
+                "annee": 2017,
+                "CA": 5100000,
+                "effectifs": 17,
+                "surface": 1060
             },
             {
-                "annee": 2023,
-                "CA": 7800000,
+                "annee": 2018,
+                "CA": 8300000,
                 "effectifs": 22,
                 "surface": 1110
             },
             {
+                "annee": 2019,
+                "CA": 7750000,
+                "effectifs": 19,
+                "surface": 1080
+            },
+            {
+                "annee": 2020,
+                "CA": 9650000,
+                "effectifs": 11,
+                "surface": 1000
+            },
+            {
+                "annee": 2021,
+                "CA": 5350000,
+                "effectifs": 30,
+                "surface": 1190
+            },
+            {
+                "annee": 2022,
+                "CA": 6600000,
+                "effectifs": 23,
+                "surface": 1120
+            },
+            {
+                "annee": 2023,
+                "CA": 6250000,
+                "effectifs": 20,
+                "surface": 1090
+            },
+            {
                 "annee": 2024,
-                "CA": 9800000,
-                "effectifs": 16,
-                "surface": 1050
+                "CA": 6000000,
+                "effectifs": 14,
+                "surface": 1030
             }
         ]
     },
     {
         "id": 9,
-        "nom": "Acima",
-        "img": "https://albayane.press.ma/wp-content/uploads/ALBAYANE2012/2016/MOIS4/04/acima-maroc.jpg",
-        "location": "Taza",
-        "dateOuverture": "2022-12-25",
+        "nom": "Aswak Assalam",
+        "img": "../asset/magasin-images/image7.jpg",
+        "location": "Tiznit",
+        "dateOuverture": "2022-04-05",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 8160000,
-                "effectifs": 11,
-                "surface": 910
+                "CA": 5568000,
+                "effectifs": 15,
+                "surface": 950
             },
             {
                 "annee": 2015,
-                "CA": 7248000,
-                "effectifs": 18,
-                "surface": 980
+                "CA": 6000000,
+                "effectifs": 23,
+                "surface": 1030
             },
             {
                 "annee": 2016,
-                "CA": 6336000,
-                "effectifs": 14,
-                "surface": 940
+                "CA": 8736000,
+                "effectifs": 12,
+                "surface": 920
             },
             {
                 "annee": 2017,
-                "CA": 6336000,
+                "CA": 8256000,
+                "effectifs": 13,
+                "surface": 930
+            },
+            {
+                "annee": 2018,
+                "CA": 9024000,
+                "effectifs": 13,
+                "surface": 930
+            },
+            {
+                "annee": 2019,
+                "CA": 7968000,
+                "effectifs": 17,
+                "surface": 970
+            },
+            {
+                "annee": 2020,
+                "CA": 7920000,
                 "effectifs": 25,
                 "surface": 1050
             },
             {
-                "annee": 2018,
-                "CA": 6240000,
-                "effectifs": 14,
-                "surface": 940
-            },
-            {
-                "annee": 2019,
-                "CA": 8976000,
-                "effectifs": 11,
-                "surface": 910
-            },
-            {
-                "annee": 2020,
-                "CA": 7968000,
-                "effectifs": 14,
-                "surface": 940
-            },
-            {
                 "annee": 2021,
-                "CA": 5856000,
+                "CA": 9168000,
                 "effectifs": 15,
                 "surface": 950
             },
             {
                 "annee": 2022,
-                "CA": 8832000,
-                "effectifs": 18,
-                "surface": 980
+                "CA": 5568000,
+                "effectifs": 20,
+                "surface": 1000
             },
             {
                 "annee": 2023,
-                "CA": 8352000,
-                "effectifs": 16,
-                "surface": 960
+                "CA": 5712000,
+                "effectifs": 20,
+                "surface": 1000
             },
             {
                 "annee": 2024,
-                "CA": 8976000,
-                "effectifs": 14,
-                "surface": 940
+                "CA": 6816000,
+                "effectifs": 24,
+                "surface": 1040
             }
         ]
     },
     {
         "id": 10,
-        "nom": "DIA",
-        "img": "https://www.lsa-conso.fr/mediatheque/3/0/5/000205503_896x598_c.jpg",
-        "location": "Tiznit",
+        "nom": "BIM",
+        "img": "../asset/magasin-images/image5.jpg",
+        "location": "Guelmim",
         "dateOuverture": "2022-08-04",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 9306000,
-                "effectifs": 15,
-                "surface": 780
+                "CA": 5123000,
+                "effectifs": 23,
+                "surface": 860
             },
             {
                 "annee": 2015,
-                "CA": 5875000,
-                "effectifs": 10,
-                "surface": 730
+                "CA": 8601000,
+                "effectifs": 9,
+                "surface": 720
             },
             {
                 "annee": 2016,
-                "CA": 8413000,
-                "effectifs": 25,
-                "surface": 880
-            },
-            {
-                "annee": 2017,
-                "CA": 5922000,
-                "effectifs": 12,
-                "surface": 750
-            },
-            {
-                "annee": 2018,
-                "CA": 6533000,
-                "effectifs": 15,
-                "surface": 780
-            },
-            {
-                "annee": 2019,
-                "CA": 8366000,
+                "CA": 6627000,
                 "effectifs": 8,
                 "surface": 710
             },
             {
-                "annee": 2020,
-                "CA": 7896000,
-                "effectifs": 16,
-                "surface": 790
+                "annee": 2017,
+                "CA": 5217000,
+                "effectifs": 9,
+                "surface": 720
             },
             {
-                "annee": 2021,
-                "CA": 6721000,
-                "effectifs": 19,
-                "surface": 820
-            },
-            {
-                "annee": 2022,
-                "CA": 6345000,
-                "effectifs": 26,
-                "surface": 890
-            },
-            {
-                "annee": 2023,
-                "CA": 7708000,
+                "annee": 2018,
+                "CA": 6909000,
                 "effectifs": 14,
                 "surface": 770
             },
             {
+                "annee": 2019,
+                "CA": 7050000,
+                "effectifs": 21,
+                "surface": 840
+            },
+            {
+                "annee": 2020,
+                "CA": 7050000,
+                "effectifs": 23,
+                "surface": 860
+            },
+            {
+                "annee": 2021,
+                "CA": 6392000,
+                "effectifs": 16,
+                "surface": 790
+            },
+            {
+                "annee": 2022,
+                "CA": 5828000,
+                "effectifs": 24,
+                "surface": 870
+            },
+            {
+                "annee": 2023,
+                "CA": 6627000,
+                "effectifs": 21,
+                "surface": 840
+            },
+            {
                 "annee": 2024,
-                "CA": 8413000,
-                "effectifs": 25,
-                "surface": 880
+                "CA": 6627000,
+                "effectifs": 24,
+                "surface": 870
             }
         ]
     },
     {
         "id": 11,
-        "nom": "Marwa",
-        "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDyZaAbXrQPSt-yO39EFISvgN_TkiQKWKNclK0K3hN0IMwsMoqtSDQHipZhJXnPPAOEUFmozc5pyiaqXqp3TJeZpOViHjjPK0QkVxwjUKiH2guPoEYc0iRo-ipJnb8gb0beK6gwhW8rohH_SGmBmHjiCdEvDDo4C-CNKsXqb3w7gQaD4LrJCjhwBPg/s1200/maewaaaa.png",
-        "location": "Sidi Slimane",
-        "dateOuverture": "2022-03-10",
+        "nom": "Socoma",
+        "img": "../asset/magasin-images/image12.jpg",
+        "location": "Beni Mellal",
+        "dateOuverture": "2022-12-25",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 4920000,
-                "effectifs": 16,
-                "surface": 750
+                "CA": 4120000,
+                "effectifs": 12,
+                "surface": 710
             },
             {
                 "annee": 2015,
-                "CA": 5720000,
-                "effectifs": 21,
-                "surface": 800
+                "CA": 6640000,
+                "effectifs": 23,
+                "surface": 820
             },
             {
                 "annee": 2016,
-                "CA": 4280000,
-                "effectifs": 14,
-                "surface": 730
-            },
-            {
-                "annee": 2017,
-                "CA": 7920000,
-                "effectifs": 7,
-                "surface": 660
-            },
-            {
-                "annee": 2018,
-                "CA": 6800000,
+                "CA": 4040000,
                 "effectifs": 24,
                 "surface": 830
             },
             {
-                "annee": 2019,
-                "CA": 5880000,
-                "effectifs": 18,
-                "surface": 770
-            },
-            {
-                "annee": 2020,
-                "CA": 4320000,
+                "annee": 2017,
+                "CA": 7560000,
                 "effectifs": 10,
                 "surface": 690
             },
             {
-                "annee": 2021,
-                "CA": 4320000,
-                "effectifs": 7,
-                "surface": 660
-            },
-            {
-                "annee": 2022,
-                "CA": 5840000,
-                "effectifs": 21,
-                "surface": 800
-            },
-            {
-                "annee": 2023,
-                "CA": 6800000,
+                "annee": 2018,
+                "CA": 6000000,
                 "effectifs": 26,
                 "surface": 850
             },
             {
+                "annee": 2019,
+                "CA": 4800000,
+                "effectifs": 20,
+                "surface": 790
+            },
+            {
+                "annee": 2020,
+                "CA": 5160000,
+                "effectifs": 23,
+                "surface": 820
+            },
+            {
+                "annee": 2021,
+                "CA": 5000000,
+                "effectifs": 14,
+                "surface": 730
+            },
+            {
+                "annee": 2022,
+                "CA": 7040000,
+                "effectifs": 25,
+                "surface": 840
+            },
+            {
+                "annee": 2023,
+                "CA": 7240000,
+                "effectifs": 22,
+                "surface": 810
+            },
+            {
                 "annee": 2024,
-                "CA": 4600000,
-                "effectifs": 24,
-                "surface": 830
+                "CA": 7080000,
+                "effectifs": 13,
+                "surface": 720
             }
         ]
     },
     {
         "id": 12,
-        "nom": "Maxi",
-        "img": "https://cdn.le-guide.ma/wp-content/uploads/2022/11/F77B8837-EE02-4618-9C91-5BD1AC3D6EF0.jpeg",
-        "location": "Beni Mellal",
-        "dateOuverture": "2022-04-05",
+        "nom": "Carrefour",
+        "img": "../asset/magasin-images/image2.jpg",
+        "location": "Taza",
+        "dateOuverture": "2022-09-22",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 6630000,
-                "effectifs": 20,
-                "surface": 750
+                "CA": 5421000,
+                "effectifs": 18,
+                "surface": 730
             },
             {
                 "annee": 2015,
-                "CA": 5772000,
-                "effectifs": 21,
-                "surface": 760
+                "CA": 4875000,
+                "effectifs": 23,
+                "surface": 780
             },
             {
                 "annee": 2016,
-                "CA": 5421000,
-                "effectifs": 11,
-                "surface": 660
+                "CA": 5616000,
+                "effectifs": 10,
+                "surface": 650
             },
             {
                 "annee": 2017,
-                "CA": 4134000,
-                "effectifs": 12,
-                "surface": 670
+                "CA": 6708000,
+                "effectifs": 22,
+                "surface": 770
             },
             {
                 "annee": 2018,
-                "CA": 7683000,
-                "effectifs": 6,
-                "surface": 610
+                "CA": 5265000,
+                "effectifs": 25,
+                "surface": 800
             },
             {
                 "annee": 2019,
-                "CA": 4719000,
+                "CA": 6045000,
                 "effectifs": 13,
                 "surface": 680
             },
             {
                 "annee": 2020,
-                "CA": 5304000,
-                "effectifs": 14,
-                "surface": 690
-            },
-            {
-                "annee": 2021,
-                "CA": 7293000,
-                "effectifs": 15,
-                "surface": 700
-            },
-            {
-                "annee": 2022,
-                "CA": 7488000,
+                "CA": 4914000,
                 "effectifs": 20,
                 "surface": 750
             },
             {
-                "annee": 2023,
-                "CA": 5460000,
+                "annee": 2021,
+                "CA": 5811000,
+                "effectifs": 8,
+                "surface": 630
+            },
+            {
+                "annee": 2022,
+                "CA": 4914000,
                 "effectifs": 16,
                 "surface": 710
             },
             {
+                "annee": 2023,
+                "CA": 3939000,
+                "effectifs": 12,
+                "surface": 670
+            },
+            {
                 "annee": 2024,
-                "CA": 4368000,
-                "effectifs": 23,
-                "surface": 780
+                "CA": 6669000,
+                "effectifs": 15,
+                "surface": 700
             }
         ]
     },
     {
         "id": 13,
-        "nom": "Socoma",
-        "img": "https://socoma-service.fr/wp-content/uploads/2020/09/socoma2020-scaled.jpg",
-        "location": "Settat",
-        "dateOuverture": "2022-05-20",
+        "nom": "Maxi",
+        "img": "../asset/magasin-images/image3.jpg",
+        "location": "Khenifra",
+        "dateOuverture": "2022-12-25",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 3744000,
+                "CA": 6048000,
+                "effectifs": 16,
+                "surface": 620
+            },
+            {
+                "annee": 2015,
+                "CA": 6228000,
+                "effectifs": 20,
+                "surface": 660
+            },
+            {
+                "annee": 2016,
+                "CA": 6192000,
+                "effectifs": 9,
+                "surface": 550
+            },
+            {
+                "annee": 2017,
+                "CA": 6264000,
+                "effectifs": 7,
+                "surface": 530
+            },
+            {
+                "annee": 2018,
+                "CA": 6120000,
                 "effectifs": 15,
                 "surface": 610
             },
             {
-                "annee": 2015,
-                "CA": 6732000,
-                "effectifs": 19,
-                "surface": 650
-            },
-            {
-                "annee": 2016,
-                "CA": 6552000,
-                "effectifs": 19,
-                "surface": 650
-            },
-            {
-                "annee": 2017,
-                "CA": 6084000,
+                "annee": 2019,
+                "CA": 5724000,
                 "effectifs": 12,
                 "surface": 580
             },
             {
-                "annee": 2018,
-                "CA": 4752000,
-                "effectifs": 22,
-                "surface": 680
-            },
-            {
-                "annee": 2019,
-                "CA": 6516000,
-                "effectifs": 5,
-                "surface": 510
-            },
-            {
                 "annee": 2020,
-                "CA": 6552000,
+                "CA": 6228000,
+                "effectifs": 21,
+                "surface": 670
+            },
+            {
+                "annee": 2021,
+                "CA": 3672000,
                 "effectifs": 14,
                 "surface": 600
             },
             {
-                "annee": 2021,
-                "CA": 6984000,
-                "effectifs": 4,
-                "surface": 500
-            },
-            {
                 "annee": 2022,
-                "CA": 3852000,
-                "effectifs": 11,
-                "surface": 570
+                "CA": 5580000,
+                "effectifs": 9,
+                "surface": 550
             },
             {
                 "annee": 2023,
-                "CA": 4968000,
-                "effectifs": 19,
-                "surface": 650
+                "CA": 6408000,
+                "effectifs": 21,
+                "surface": 670
             },
             {
                 "annee": 2024,
-                "CA": 6156000,
-                "effectifs": 7,
-                "surface": 530
+                "CA": 4536000,
+                "effectifs": 24,
+                "surface": 700
             }
         ]
     },
     {
         "id": 14,
-        "nom": "BIM",
-        "img": "https://i0.wp.com/leseco.ma/wp-content/uploads/2020/12/BIM.jpg?fit=1200%2C600&ssl=1",
-        "location": "Casablanca",
-        "dateOuverture": "2022-01-15",
+        "nom": "Socoma",
+        "img": "../asset/magasin-images/image12.jpg",
+        "location": "Beni Mellal",
+        "dateOuverture": "2022-09-22",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 8041000,
-                "effectifs": 25,
-                "surface": 860
-            },
-            {
-                "annee": 2015,
-                "CA": 6407000,
-                "effectifs": 25,
-                "surface": 860
-            },
-            {
-                "annee": 2016,
-                "CA": 7826000,
-                "effectifs": 15,
-                "surface": 760
-            },
-            {
-                "annee": 2017,
-                "CA": 6837000,
-                "effectifs": 11,
-                "surface": 720
-            },
-            {
-                "annee": 2018,
-                "CA": 4558000,
-                "effectifs": 17,
-                "surface": 780
-            },
-            {
-                "annee": 2019,
-                "CA": 8299000,
+                "CA": 4300000,
                 "effectifs": 7,
                 "surface": 680
             },
             {
-                "annee": 2020,
-                "CA": 7052000,
-                "effectifs": 13,
-                "surface": 740
+                "annee": 2015,
+                "CA": 4343000,
+                "effectifs": 24,
+                "surface": 850
             },
             {
-                "annee": 2021,
+                "annee": 2016,
                 "CA": 7267000,
+                "effectifs": 7,
+                "surface": 680
+            },
+            {
+                "annee": 2017,
+                "CA": 6278000,
+                "effectifs": 10,
+                "surface": 710
+            },
+            {
+                "annee": 2018,
+                "CA": 4988000,
+                "effectifs": 10,
+                "surface": 710
+            },
+            {
+                "annee": 2019,
+                "CA": 6063000,
                 "effectifs": 5,
                 "surface": 660
             },
             {
+                "annee": 2020,
+                "CA": 5418000,
+                "effectifs": 19,
+                "surface": 800
+            },
+            {
+                "annee": 2021,
+                "CA": 5676000,
+                "effectifs": 24,
+                "surface": 850
+            },
+            {
                 "annee": 2022,
-                "CA": 6493000,
-                "effectifs": 13,
-                "surface": 740
+                "CA": 7697000,
+                "effectifs": 16,
+                "surface": 770
             },
             {
                 "annee": 2023,
-                "CA": 7568000,
-                "effectifs": 20,
-                "surface": 810
+                "CA": 5934000,
+                "effectifs": 14,
+                "surface": 750
             },
             {
                 "annee": 2024,
-                "CA": 5160000,
-                "effectifs": 25,
-                "surface": 860
+                "CA": 8213000,
+                "effectifs": 12,
+                "surface": 730
             }
         ]
     },
     {
         "id": 15,
-        "nom": "Marwa",
-        "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDyZaAbXrQPSt-yO39EFISvgN_TkiQKWKNclK0K3hN0IMwsMoqtSDQHipZhJXnPPAOEUFmozc5pyiaqXqp3TJeZpOViHjjPK0QkVxwjUKiH2guPoEYc0iRo-ipJnb8gb0beK6gwhW8rohH_SGmBmHjiCdEvDDo4C-CNKsXqb3w7gQaD4LrJCjhwBPg/s1200/maewaaaa.png",
-        "location": "Beni Mellal",
-        "dateOuverture": "2022-03-10",
+        "nom": "Marjane",
+        "img": "../asset/magasin-images/image1.jpg",
+        "location": "Tangier",
+        "dateOuverture": "2022-09-22",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 8145000,
-                "effectifs": 6,
-                "surface": 630
+                "CA": 5985000,
+                "effectifs": 9,
+                "surface": 660
             },
             {
                 "annee": 2015,
-                "CA": 8685000,
-                "effectifs": 7,
-                "surface": 640
-            },
-            {
-                "annee": 2016,
-                "CA": 7605000,
+                "CA": 4815000,
                 "effectifs": 13,
                 "surface": 700
             },
             {
-                "annee": 2017,
-                "CA": 7155000,
+                "annee": 2016,
+                "CA": 7695000,
                 "effectifs": 8,
                 "surface": 650
+            },
+            {
+                "annee": 2017,
+                "CA": 6885000,
+                "effectifs": 25,
+                "surface": 820
             },
             {
                 "annee": 2018,
-                "CA": 8685000,
-                "effectifs": 20,
-                "surface": 770
+                "CA": 6975000,
+                "effectifs": 9,
+                "surface": 660
             },
             {
                 "annee": 2019,
-                "CA": 6570000,
-                "effectifs": 22,
-                "surface": 790
+                "CA": 7245000,
+                "effectifs": 12,
+                "surface": 690
             },
             {
                 "annee": 2020,
-                "CA": 4860000,
-                "effectifs": 24,
-                "surface": 810
+                "CA": 7380000,
+                "effectifs": 7,
+                "surface": 640
             },
             {
                 "annee": 2021,
-                "CA": 4950000,
-                "effectifs": 6,
-                "surface": 630
+                "CA": 5625000,
+                "effectifs": 5,
+                "surface": 620
             },
             {
                 "annee": 2022,
-                "CA": 5580000,
+                "CA": 8505000,
+                "effectifs": 19,
+                "surface": 760
+            },
+            {
+                "annee": 2023,
+                "CA": 6570000,
                 "effectifs": 8,
                 "surface": 650
             },
             {
-                "annee": 2023,
-                "CA": 5175000,
-                "effectifs": 14,
-                "surface": 710
-            },
-            {
                 "annee": 2024,
-                "CA": 6030000,
-                "effectifs": 10,
-                "surface": 670
+                "CA": 5940000,
+                "effectifs": 24,
+                "surface": 810
             }
         ]
     },
     {
         "id": 16,
-        "nom": "Hanouty",
-        "img": "https://static.yabiladi.com/files/articles/d69b5b6855dda3316e71eb1262ac7d02.jpg",
-        "location": "Agadir",
-        "dateOuverture": "2022-11-12",
+        "nom": "Maxi",
+        "img": "../asset/magasin-images/image3.jpg",
+        "location": "El Jadida",
+        "dateOuverture": "2022-01-15",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 4876000,
-                "effectifs": 19,
-                "surface": 750
-            },
-            {
-                "annee": 2015,
-                "CA": 4784000,
-                "effectifs": 26,
-                "surface": 820
-            },
-            {
-                "annee": 2016,
-                "CA": 7038000,
-                "effectifs": 6,
-                "surface": 620
-            },
-            {
-                "annee": 2017,
-                "CA": 6256000,
-                "effectifs": 13,
-                "surface": 690
-            },
-            {
-                "annee": 2018,
-                "CA": 5428000,
-                "effectifs": 12,
-                "surface": 680
-            },
-            {
-                "annee": 2019,
-                "CA": 5888000,
-                "effectifs": 20,
-                "surface": 760
-            },
-            {
-                "annee": 2020,
-                "CA": 7544000,
-                "effectifs": 26,
-                "surface": 820
-            },
-            {
-                "annee": 2021,
-                "CA": 4692000,
-                "effectifs": 23,
-                "surface": 790
-            },
-            {
-                "annee": 2022,
-                "CA": 8464000,
-                "effectifs": 20,
-                "surface": 760
-            },
-            {
-                "annee": 2023,
-                "CA": 4692000,
+                "CA": 8556000,
                 "effectifs": 22,
                 "surface": 780
             },
             {
+                "annee": 2015,
+                "CA": 8234000,
+                "effectifs": 9,
+                "surface": 650
+            },
+            {
+                "annee": 2016,
+                "CA": 6624000,
+                "effectifs": 23,
+                "surface": 790
+            },
+            {
+                "annee": 2017,
+                "CA": 7360000,
+                "effectifs": 10,
+                "surface": 660
+            },
+            {
+                "annee": 2018,
+                "CA": 5382000,
+                "effectifs": 22,
+                "surface": 780
+            },
+            {
+                "annee": 2019,
+                "CA": 5244000,
+                "effectifs": 9,
+                "surface": 650
+            },
+            {
+                "annee": 2020,
+                "CA": 5197999,
+                "effectifs": 14,
+                "surface": 700
+            },
+            {
+                "annee": 2021,
+                "CA": 4876000,
+                "effectifs": 26,
+                "surface": 820
+            },
+            {
+                "annee": 2022,
+                "CA": 8464000,
+                "effectifs": 17,
+                "surface": 730
+            },
+            {
+                "annee": 2023,
+                "CA": 4968000,
+                "effectifs": 20,
+                "surface": 760
+            },
+            {
                 "annee": 2024,
-                "CA": 5106000,
-                "effectifs": 12,
-                "surface": 680
+                "CA": 4738000,
+                "effectifs": 19,
+                "surface": 750
             }
         ]
     },
     {
         "id": 17,
-        "nom": "Marjane",
-        "img": "https://fnh.ma//uploads/actualites/63ee0894d8cfe_marjane%20energie%20photvoltaique.jpg",
-        "location": "Dakhla",
-        "dateOuverture": "2022-02-28",
+        "nom": "Socoma",
+        "img": "../asset/magasin-images/image12.jpg",
+        "location": "Agadir",
+        "dateOuverture": "2022-07-17",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 4935000,
-                "effectifs": 27,
-                "surface": 860
-            },
-            {
-                "annee": 2015,
-                "CA": 4982000,
+                "CA": 9400000,
                 "effectifs": 13,
                 "surface": 720
             },
             {
+                "annee": 2015,
+                "CA": 7943000,
+                "effectifs": 26,
+                "surface": 850
+            },
+            {
                 "annee": 2016,
-                "CA": 6345000,
+                "CA": 6533000,
+                "effectifs": 13,
+                "surface": 720
+            },
+            {
+                "annee": 2017,
+                "CA": 7708000,
                 "effectifs": 19,
                 "surface": 780
             },
             {
-                "annee": 2017,
-                "CA": 6251000,
-                "effectifs": 16,
-                "surface": 750
-            },
-            {
                 "annee": 2018,
-                "CA": 7050000,
-                "effectifs": 16,
-                "surface": 750
+                "CA": 6627000,
+                "effectifs": 26,
+                "surface": 850
             },
             {
                 "annee": 2019,
-                "CA": 5875000,
-                "effectifs": 28,
-                "surface": 870
-            },
-            {
-                "annee": 2020,
-                "CA": 9212000,
-                "effectifs": 12,
-                "surface": 710
-            },
-            {
-                "annee": 2021,
-                "CA": 7426000,
-                "effectifs": 13,
-                "surface": 720
-            },
-            {
-                "annee": 2022,
-                "CA": 4700000,
-                "effectifs": 14,
-                "surface": 730
-            },
-            {
-                "annee": 2023,
-                "CA": 5781000,
+                "CA": 5217000,
                 "effectifs": 10,
                 "surface": 690
             },
             {
-                "annee": 2024,
-                "CA": 8319000,
+                "annee": 2020,
+                "CA": 8178000,
+                "effectifs": 10,
+                "surface": 690
+            },
+            {
+                "annee": 2021,
+                "CA": 6392000,
+                "effectifs": 17,
+                "surface": 760
+            },
+            {
+                "annee": 2022,
+                "CA": 7849000,
                 "effectifs": 20,
                 "surface": 790
+            },
+            {
+                "annee": 2023,
+                "CA": 8272000,
+                "effectifs": 18,
+                "surface": 770
+            },
+            {
+                "annee": 2024,
+                "CA": 8554000,
+                "effectifs": 28,
+                "surface": 870
             }
         ]
     },
     {
         "id": 18,
-        "nom": "Carrefour",
-        "img": "https://www.maghreb-intelligence.com/wp-content/uploads/2023/12/6876d973bdb26f7d23ebb6a7102f3ae2.jpg",
-        "location": "Casablanca",
-        "dateOuverture": "2022-11-12",
+        "nom": "Hanouty",
+        "img": "../asset/magasin-images/image4.jpg",
+        "location": "Taourirt",
+        "dateOuverture": "2022-02-28",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 5423999,
-                "effectifs": 17,
-                "surface": 760
-            },
-            {
-                "annee": 2015,
-                "CA": 5712000,
+                "CA": 7296000,
                 "effectifs": 16,
                 "surface": 750
             },
             {
-                "annee": 2016,
-                "CA": 9120000,
-                "effectifs": 19,
-                "surface": 780
-            },
-            {
-                "annee": 2017,
-                "CA": 6192000,
-                "effectifs": 9,
-                "surface": 680
-            },
-            {
-                "annee": 2018,
-                "CA": 6096000,
+                "annee": 2015,
+                "CA": 7200000,
                 "effectifs": 12,
                 "surface": 710
             },
             {
+                "annee": 2016,
+                "CA": 4896000,
+                "effectifs": 12,
+                "surface": 710
+            },
+            {
+                "annee": 2017,
+                "CA": 5088000,
+                "effectifs": 10,
+                "surface": 690
+            },
+            {
+                "annee": 2018,
+                "CA": 7728000,
+                "effectifs": 17,
+                "surface": 760
+            },
+            {
                 "annee": 2019,
-                "CA": 6432000,
-                "effectifs": 23,
-                "surface": 820
+                "CA": 8448000,
+                "effectifs": 8,
+                "surface": 670
             },
             {
                 "annee": 2020,
-                "CA": 6432000,
-                "effectifs": 19,
-                "surface": 780
+                "CA": 7008000,
+                "effectifs": 12,
+                "surface": 710
             },
             {
                 "annee": 2021,
-                "CA": 7152000,
-                "effectifs": 21,
-                "surface": 800
+                "CA": 6384000,
+                "effectifs": 27,
+                "surface": 860
             },
             {
                 "annee": 2022,
-                "CA": 6144000,
-                "effectifs": 15,
-                "surface": 740
+                "CA": 7680000,
+                "effectifs": 13,
+                "surface": 720
             },
             {
                 "annee": 2023,
-                "CA": 6288000,
-                "effectifs": 25,
-                "surface": 840
+                "CA": 7344000,
+                "effectifs": 18,
+                "surface": 770
             },
             {
                 "annee": 2024,
-                "CA": 7584000,
-                "effectifs": 28,
-                "surface": 870
+                "CA": 8928000,
+                "effectifs": 10,
+                "surface": 690
             }
         ]
     },
     {
         "id": 19,
-        "nom": "Carrefour",
-        "img": "https://www.maghreb-intelligence.com/wp-content/uploads/2023/12/6876d973bdb26f7d23ebb6a7102f3ae2.jpg",
-        "location": "Casablanca",
-        "dateOuverture": "2022-02-28",
+        "nom": "Hanouty",
+        "img": "../asset/magasin-images/image4.jpg",
+        "location": "Kenitra",
+        "dateOuverture": "2022-12-25",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 4950000,
-                "effectifs": 5,
-                "surface": 440
-            },
-            {
-                "annee": 2015,
-                "CA": 4719000,
-                "effectifs": 13,
-                "surface": 520
-            },
-            {
-                "annee": 2016,
-                "CA": 3300000,
-                "effectifs": 15,
-                "surface": 540
-            },
-            {
-                "annee": 2017,
-                "CA": 5973000,
-                "effectifs": 3,
-                "surface": 420
-            },
-            {
-                "annee": 2018,
-                "CA": 4092000,
-                "effectifs": 16,
-                "surface": 550
-            },
-            {
-                "annee": 2019,
-                "CA": 6006000,
-                "effectifs": 13,
-                "surface": 520
-            },
-            {
-                "annee": 2020,
-                "CA": 6072000,
+                "CA": 4026000,
                 "effectifs": 12,
                 "surface": 510
             },
             {
+                "annee": 2015,
+                "CA": 4257000,
+                "effectifs": 16,
+                "surface": 550
+            },
+            {
+                "annee": 2016,
+                "CA": 4257000,
+                "effectifs": 14,
+                "surface": 530
+            },
+            {
+                "annee": 2017,
+                "CA": 5247000,
+                "effectifs": 12,
+                "surface": 510
+            },
+            {
+                "annee": 2018,
+                "CA": 5115000,
+                "effectifs": 11,
+                "surface": 500
+            },
+            {
+                "annee": 2019,
+                "CA": 5676000,
+                "effectifs": 2,
+                "surface": 410
+            },
+            {
+                "annee": 2020,
+                "CA": 3300000,
+                "effectifs": 20,
+                "surface": 590
+            },
+            {
                 "annee": 2021,
-                "CA": 3564000,
-                "effectifs": 3,
-                "surface": 420
-            },
-            {
-                "annee": 2022,
-                "CA": 3432000,
-                "effectifs": 15,
-                "surface": 540
-            },
-            {
-                "annee": 2023,
-                "CA": 4422000,
+                "CA": 6435000,
                 "effectifs": 5,
                 "surface": 440
             },
             {
+                "annee": 2022,
+                "CA": 5544000,
+                "effectifs": 2,
+                "surface": 410
+            },
+            {
+                "annee": 2023,
+                "CA": 3597000,
+                "effectifs": 8,
+                "surface": 470
+            },
+            {
                 "annee": 2024,
                 "CA": 4125000,
-                "effectifs": 15,
-                "surface": 540
+                "effectifs": 7,
+                "surface": 460
             }
         ]
     },
     {
         "id": 20,
-        "nom": "Acima",
-        "img": "https://albayane.press.ma/wp-content/uploads/ALBAYANE2012/2016/MOIS4/04/acima-maroc.jpg",
-        "location": "Dakhla",
-        "dateOuverture": "2022-03-10",
+        "nom": "Atacadao",
+        "img": "../asset/magasin-images/image6.jpg",
+        "location": "Taza",
+        "dateOuverture": "2022-04-05",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 6400000,
-                "effectifs": 10,
-                "surface": 730
+                "CA": 5450000,
+                "effectifs": 9,
+                "surface": 720
             },
             {
                 "annee": 2015,
-                "CA": 7000000,
-                "effectifs": 16,
-                "surface": 790
+                "CA": 5350000,
+                "effectifs": 17,
+                "surface": 800
             },
             {
                 "annee": 2016,
-                "CA": 7050000,
-                "effectifs": 10,
-                "surface": 730
+                "CA": 5800000,
+                "effectifs": 25,
+                "surface": 880
             },
             {
                 "annee": 2017,
-                "CA": 7750000,
-                "effectifs": 28,
-                "surface": 910
-            },
-            {
-                "annee": 2018,
-                "CA": 5900000,
-                "effectifs": 10,
-                "surface": 730
-            },
-            {
-                "annee": 2019,
-                "CA": 6200000,
-                "effectifs": 10,
-                "surface": 730
-            },
-            {
-                "annee": 2020,
                 "CA": 9100000,
-                "effectifs": 28,
-                "surface": 910
-            },
-            {
-                "annee": 2021,
-                "CA": 6000000,
                 "effectifs": 21,
                 "surface": 840
             },
             {
-                "annee": 2022,
-                "CA": 7850000,
+                "annee": 2018,
+                "CA": 6700000,
+                "effectifs": 23,
+                "surface": 860
+            },
+            {
+                "annee": 2019,
+                "CA": 5300000,
+                "effectifs": 25,
+                "surface": 880
+            },
+            {
+                "annee": 2020,
+                "CA": 7400000,
+                "effectifs": 27,
+                "surface": 900
+            },
+            {
+                "annee": 2021,
+                "CA": 8800000,
                 "effectifs": 29,
                 "surface": 920
             },
             {
+                "annee": 2022,
+                "CA": 9850000,
+                "effectifs": 13,
+                "surface": 760
+            },
+            {
                 "annee": 2023,
-                "CA": 8500000,
-                "effectifs": 12,
-                "surface": 750
+                "CA": 10000000,
+                "effectifs": 29,
+                "surface": 920
             },
             {
                 "annee": 2024,
-                "CA": 8600000,
-                "effectifs": 10,
-                "surface": 730
+                "CA": 9900000,
+                "effectifs": 21,
+                "surface": 840
             }
         ]
     },
     {
         "id": 21,
-        "nom": "DIA",
-        "img": "https://www.lsa-conso.fr/mediatheque/3/0/5/000205503_896x598_c.jpg",
-        "location": "Taza",
-        "dateOuverture": "2022-01-15",
+        "nom": "Marwa",
+        "img": "../asset/magasin-images/image11.jpg",
+        "location": "Rabat",
+        "dateOuverture": "2022-06-08",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 7889000,
-                "effectifs": 29,
-                "surface": 920
-            },
-            {
-                "annee": 2015,
-                "CA": 6713000,
-                "effectifs": 16,
-                "surface": 790
-            },
-            {
-                "annee": 2016,
-                "CA": 6174000,
-                "effectifs": 11,
-                "surface": 740
-            },
-            {
-                "annee": 2017,
-                "CA": 6810999,
-                "effectifs": 14,
-                "surface": 770
-            },
-            {
-                "annee": 2018,
-                "CA": 8869000,
-                "effectifs": 27,
-                "surface": 900
-            },
-            {
-                "annee": 2019,
-                "CA": 9212000,
+                "CA": 7595000,
                 "effectifs": 15,
                 "surface": 780
             },
             {
+                "annee": 2015,
+                "CA": 5145000,
+                "effectifs": 28,
+                "surface": 910
+            },
+            {
+                "annee": 2016,
+                "CA": 5733000,
+                "effectifs": 15,
+                "surface": 780
+            },
+            {
+                "annee": 2017,
+                "CA": 5684000,
+                "effectifs": 13,
+                "surface": 760
+            },
+            {
+                "annee": 2018,
+                "CA": 6566000,
+                "effectifs": 29,
+                "surface": 920
+            },
+            {
+                "annee": 2019,
+                "CA": 8624000,
+                "effectifs": 25,
+                "surface": 880
+            },
+            {
                 "annee": 2020,
-                "CA": 7252000,
-                "effectifs": 14,
-                "surface": 770
-            },
-            {
-                "annee": 2021,
-                "CA": 6370000,
-                "effectifs": 17,
-                "surface": 800
-            },
-            {
-                "annee": 2022,
-                "CA": 7889000,
-                "effectifs": 21,
-                "surface": 840
-            },
-            {
-                "annee": 2023,
-                "CA": 8428000,
+                "CA": 7056000,
                 "effectifs": 24,
                 "surface": 870
             },
             {
+                "annee": 2021,
+                "CA": 4900000,
+                "effectifs": 15,
+                "surface": 780
+            },
+            {
+                "annee": 2022,
+                "CA": 7301000,
+                "effectifs": 30,
+                "surface": 930
+            },
+            {
+                "annee": 2023,
+                "CA": 5341000,
+                "effectifs": 12,
+                "surface": 750
+            },
+            {
                 "annee": 2024,
-                "CA": 7154000,
-                "effectifs": 29,
-                "surface": 920
+                "CA": 5390000,
+                "effectifs": 17,
+                "surface": 800
             }
         ]
     },
     {
         "id": 22,
-        "nom": "Marjane",
-        "img": "https://fnh.ma//uploads/actualites/63ee0894d8cfe_marjane%20energie%20photvoltaique.jpg",
+        "nom": "Marwa",
+        "img": "../asset/magasin-images/image11.jpg",
         "location": "Berkane",
-        "dateOuverture": "2022-02-28",
+        "dateOuverture": "2022-05-20",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 4935000,
-                "effectifs": 14,
-                "surface": 750
-            },
-            {
-                "annee": 2015,
-                "CA": 7849000,
-                "effectifs": 25,
-                "surface": 860
-            },
-            {
-                "annee": 2016,
-                "CA": 8366000,
-                "effectifs": 28,
-                "surface": 890
-            },
-            {
-                "annee": 2017,
-                "CA": 5593000,
-                "effectifs": 17,
-                "surface": 780
-            },
-            {
-                "annee": 2018,
-                "CA": 6485999,
-                "effectifs": 9,
-                "surface": 700
-            },
-            {
-                "annee": 2019,
-                "CA": 5499000,
-                "effectifs": 11,
-                "surface": 720
-            },
-            {
-                "annee": 2020,
-                "CA": 9024000,
+                "CA": 9212000,
                 "effectifs": 19,
                 "surface": 800
             },
             {
-                "annee": 2021,
-                "CA": 6768000,
-                "effectifs": 14,
-                "surface": 750
+                "annee": 2015,
+                "CA": 7896000,
+                "effectifs": 15,
+                "surface": 760
             },
             {
-                "annee": 2022,
-                "CA": 8507000,
+                "annee": 2016,
+                "CA": 5264000,
+                "effectifs": 16,
+                "surface": 770
+            },
+            {
+                "annee": 2017,
+                "CA": 6815000,
+                "effectifs": 23,
+                "surface": 840
+            },
+            {
+                "annee": 2018,
+                "CA": 6063000,
+                "effectifs": 18,
+                "surface": 790
+            },
+            {
+                "annee": 2019,
+                "CA": 7144000,
+                "effectifs": 12,
+                "surface": 730
+            },
+            {
+                "annee": 2020,
+                "CA": 9212000,
                 "effectifs": 28,
                 "surface": 890
             },
             {
+                "annee": 2021,
+                "CA": 8225000,
+                "effectifs": 21,
+                "surface": 820
+            },
+            {
+                "annee": 2022,
+                "CA": 7191000,
+                "effectifs": 21,
+                "surface": 820
+            },
+            {
                 "annee": 2023,
-                "CA": 8930000,
-                "effectifs": 24,
-                "surface": 850
+                "CA": 5781000,
+                "effectifs": 27,
+                "surface": 880
             },
             {
                 "annee": 2024,
-                "CA": 4888000,
-                "effectifs": 16,
-                "surface": 770
+                "CA": 7990000,
+                "effectifs": 27,
+                "surface": 880
             }
         ]
     },
     {
         "id": 23,
-        "nom": "Hanouty",
-        "img": "https://static.yabiladi.com/files/articles/d69b5b6855dda3316e71eb1262ac7d02.jpg",
-        "location": "Nador",
-        "dateOuverture": "2022-01-15",
+        "nom": "BIM",
+        "img": "../asset/magasin-images/image5.jpg",
+        "location": "Agadir",
+        "dateOuverture": "2022-12-25",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 6164000,
-                "effectifs": 17,
-                "surface": 730
-            },
-            {
-                "annee": 2015,
-                "CA": 7820000,
-                "effectifs": 21,
-                "surface": 770
-            },
-            {
-                "annee": 2016,
-                "CA": 5060000,
-                "effectifs": 12,
-                "surface": 680
-            },
-            {
-                "annee": 2017,
-                "CA": 9016000,
+                "CA": 6440000,
                 "effectifs": 13,
                 "surface": 690
             },
             {
-                "annee": 2018,
-                "CA": 7406000,
-                "effectifs": 14,
-                "surface": 700
+                "annee": 2015,
+                "CA": 5980000,
+                "effectifs": 18,
+                "surface": 740
             },
             {
-                "annee": 2019,
-                "CA": 5658000,
+                "annee": 2016,
+                "CA": 8142000,
+                "effectifs": 19,
+                "surface": 750
+            },
+            {
+                "annee": 2017,
+                "CA": 5336000,
                 "effectifs": 15,
                 "surface": 710
             },
             {
-                "annee": 2020,
-                "CA": 7636000,
-                "effectifs": 17,
-                "surface": 730
+                "annee": 2018,
+                "CA": 8878000,
+                "effectifs": 16,
+                "surface": 720
             },
             {
-                "annee": 2021,
-                "CA": 4646000,
+                "annee": 2019,
+                "CA": 6256000,
                 "effectifs": 4,
                 "surface": 600
             },
             {
+                "annee": 2020,
+                "CA": 5796000,
+                "effectifs": 9,
+                "surface": 650
+            },
+            {
+                "annee": 2021,
+                "CA": 5796000,
+                "effectifs": 12,
+                "surface": 680
+            },
+            {
                 "annee": 2022,
-                "CA": 9154000,
-                "effectifs": 24,
-                "surface": 800
+                "CA": 5060000,
+                "effectifs": 13,
+                "surface": 690
             },
             {
                 "annee": 2023,
-                "CA": 5152000,
+                "CA": 5197999,
                 "effectifs": 16,
                 "surface": 720
             },
             {
                 "annee": 2024,
-                "CA": 7682000,
-                "effectifs": 10,
-                "surface": 660
+                "CA": 6210000,
+                "effectifs": 4,
+                "surface": 600
             }
         ]
     },
     {
         "id": 24,
         "nom": "DIA",
-        "img": "https://www.lsa-conso.fr/mediatheque/3/0/5/000205503_896x598_c.jpg",
-        "location": "Taza",
-        "dateOuverture": "2022-10-31",
+        "img": "../asset/magasin-images/image9.jpg",
+        "location": "Oujda",
+        "dateOuverture": "2022-01-15",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 5130000,
-                "effectifs": 17,
-                "surface": 670
+                "CA": 4860000,
+                "effectifs": 22,
+                "surface": 720
             },
             {
                 "annee": 2015,
-                "CA": 5130000,
-                "effectifs": 10,
-                "surface": 600
+                "CA": 8955000,
+                "effectifs": 24,
+                "surface": 740
             },
             {
                 "annee": 2016,
-                "CA": 8730000,
-                "effectifs": 25,
-                "surface": 750
-            },
-            {
-                "annee": 2017,
-                "CA": 8550000,
-                "effectifs": 14,
-                "surface": 640
-            },
-            {
-                "annee": 2018,
-                "CA": 8370000,
+                "CA": 7200000,
                 "effectifs": 13,
                 "surface": 630
             },
             {
+                "annee": 2017,
+                "CA": 6615000,
+                "effectifs": 8,
+                "surface": 580
+            },
+            {
+                "annee": 2018,
+                "CA": 7245000,
+                "effectifs": 20,
+                "surface": 700
+            },
+            {
                 "annee": 2019,
-                "CA": 7020000,
-                "effectifs": 18,
-                "surface": 680
+                "CA": 4950000,
+                "effectifs": 8,
+                "surface": 580
             },
             {
                 "annee": 2020,
-                "CA": 8820000,
-                "effectifs": 21,
-                "surface": 710
+                "CA": 4545000,
+                "effectifs": 22,
+                "surface": 720
             },
             {
                 "annee": 2021,
-                "CA": 6209999,
-                "effectifs": 10,
-                "surface": 600
+                "CA": 7334999,
+                "effectifs": 22,
+                "surface": 720
             },
             {
                 "annee": 2022,
-                "CA": 7875000,
-                "effectifs": 18,
-                "surface": 680
+                "CA": 6209999,
+                "effectifs": 6,
+                "surface": 560
             },
             {
                 "annee": 2023,
-                "CA": 5985000,
+                "CA": 4905000,
                 "effectifs": 15,
                 "surface": 650
             },
             {
                 "annee": 2024,
-                "CA": 8100000,
-                "effectifs": 15,
-                "surface": 650
+                "CA": 5040000,
+                "effectifs": 23,
+                "surface": 730
             }
         ]
     },
     {
         "id": 25,
-        "nom": "Maxi",
-        "img": "https://cdn.le-guide.ma/wp-content/uploads/2022/11/F77B8837-EE02-4618-9C91-5BD1AC3D6EF0.jpeg",
-        "location": "Oujda",
-        "dateOuverture": "2022-12-25",
+        "nom": "Socoma",
+        "img": "../asset/magasin-images/image12.jpg",
+        "location": "Errachidia",
+        "dateOuverture": "2022-10-31",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 7296000,
-                "effectifs": 21,
-                "surface": 715
+                "CA": 5616000,
+                "effectifs": 11,
+                "surface": 615
             },
             {
                 "annee": 2015,
-                "CA": 5664000,
-                "effectifs": 21,
-                "surface": 715
+                "CA": 8352000,
+                "effectifs": 17,
+                "surface": 675
             },
             {
                 "annee": 2016,
-                "CA": 9408000,
-                "effectifs": 6,
-                "surface": 565
+                "CA": 7392000,
+                "effectifs": 17,
+                "surface": 675
             },
             {
                 "annee": 2017,
-                "CA": 5520000,
-                "effectifs": 23,
-                "surface": 735
-            },
-            {
-                "annee": 2018,
-                "CA": 5423999,
-                "effectifs": 22,
-                "surface": 725
-            },
-            {
-                "annee": 2019,
-                "CA": 7823999,
-                "effectifs": 13,
-                "surface": 635
-            },
-            {
-                "annee": 2020,
-                "CA": 5712000,
-                "effectifs": 26,
-                "surface": 765
-            },
-            {
-                "annee": 2021,
-                "CA": 8160000,
+                "CA": 8928000,
                 "effectifs": 18,
                 "surface": 685
             },
             {
+                "annee": 2018,
+                "CA": 8352000,
+                "effectifs": 18,
+                "surface": 685
+            },
+            {
+                "annee": 2019,
+                "CA": 8496000,
+                "effectifs": 24,
+                "surface": 745
+            },
+            {
+                "annee": 2020,
+                "CA": 8544000,
+                "effectifs": 7,
+                "surface": 575
+            },
+            {
+                "annee": 2021,
+                "CA": 5808000,
+                "effectifs": 19,
+                "surface": 695
+            },
+            {
                 "annee": 2022,
-                "CA": 4848000,
-                "effectifs": 6,
-                "surface": 565
+                "CA": 6671999,
+                "effectifs": 23,
+                "surface": 735
             },
             {
                 "annee": 2023,
-                "CA": 8400000,
-                "effectifs": 25,
-                "surface": 755
+                "CA": 8160000,
+                "effectifs": 10,
+                "surface": 605
             },
             {
                 "annee": 2024,
-                "CA": 5520000,
-                "effectifs": 13,
-                "surface": 635
+                "CA": 8448000,
+                "effectifs": 14,
+                "surface": 645
             }
         ]
     },
     {
         "id": 26,
-        "nom": "Acima",
-        "img": "https://albayane.press.ma/wp-content/uploads/ALBAYANE2012/2016/MOIS4/04/acima-maroc.jpg",
-        "location": "Tangier",
-        "dateOuverture": "2022-10-31",
+        "nom": "Kitea",
+        "img": "../asset/magasin-images/image10.jpeg",
+        "location": "Taza",
+        "dateOuverture": "2022-05-20",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 9800000,
-                "effectifs": 11,
-                "surface": 690
-            },
-            {
-                "annee": 2015,
-                "CA": 8035999,
-                "effectifs": 14,
-                "surface": 720
-            },
-            {
-                "annee": 2016,
-                "CA": 8820000,
-                "effectifs": 19,
-                "surface": 770
-            },
-            {
-                "annee": 2017,
-                "CA": 6860000,
-                "effectifs": 9,
-                "surface": 670
-            },
-            {
-                "annee": 2018,
-                "CA": 9506000,
-                "effectifs": 20,
-                "surface": 780
-            },
-            {
-                "annee": 2019,
-                "CA": 9310000,
+                "CA": 7301000,
                 "effectifs": 28,
                 "surface": 860
             },
             {
+                "annee": 2015,
+                "CA": 5733000,
+                "effectifs": 16,
+                "surface": 740
+            },
+            {
+                "annee": 2016,
+                "CA": 7546000,
+                "effectifs": 21,
+                "surface": 790
+            },
+            {
+                "annee": 2017,
+                "CA": 4998000,
+                "effectifs": 24,
+                "surface": 820
+            },
+            {
+                "annee": 2018,
+                "CA": 7399000,
+                "effectifs": 10,
+                "surface": 680
+            },
+            {
+                "annee": 2019,
+                "CA": 8771000,
+                "effectifs": 29,
+                "surface": 870
+            },
+            {
                 "annee": 2020,
-                "CA": 5341000,
-                "effectifs": 13,
-                "surface": 710
+                "CA": 7791000,
+                "effectifs": 14,
+                "surface": 720
             },
             {
                 "annee": 2021,
-                "CA": 7986999,
-                "effectifs": 15,
-                "surface": 730
+                "CA": 5488000,
+                "effectifs": 26,
+                "surface": 840
             },
             {
                 "annee": 2022,
-                "CA": 5880000,
-                "effectifs": 25,
-                "surface": 830
+                "CA": 9163000,
+                "effectifs": 27,
+                "surface": 850
             },
             {
                 "annee": 2023,
-                "CA": 8526000,
+                "CA": 8624000,
                 "effectifs": 18,
                 "surface": 760
             },
             {
                 "annee": 2024,
-                "CA": 6517000,
-                "effectifs": 19,
-                "surface": 770
+                "CA": 8134000,
+                "effectifs": 15,
+                "surface": 730
             }
         ]
     },
     {
         "id": 27,
-        "nom": "Atacadao",
-        "img": "https://www.lineaires.com/var/site/storage/images/_aliases/large/4/7/8/1/5811874-1-fre-FR/Atacadao.jpg",
-        "location": "Ouarzazate",
-        "dateOuverture": "2022-08-04",
+        "nom": "Acima",
+        "img": "../asset/magasin-images/image8.jpg",
+        "location": "Oujda",
+        "dateOuverture": "2022-09-22",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 4305000,
-                "effectifs": 9,
-                "surface": 500
+                "CA": 6545000,
+                "effectifs": 22,
+                "surface": 630
             },
             {
                 "annee": 2015,
-                "CA": 3850000,
-                "effectifs": 8,
-                "surface": 490
+                "CA": 5285000,
+                "effectifs": 5,
+                "surface": 460
             },
             {
                 "annee": 2016,
-                "CA": 4620000,
-                "effectifs": 11,
-                "surface": 520
-            },
-            {
-                "annee": 2017,
-                "CA": 6650000,
-                "effectifs": 16,
-                "surface": 570
-            },
-            {
-                "annee": 2018,
-                "CA": 5355000,
-                "effectifs": 21,
-                "surface": 620
-            },
-            {
-                "annee": 2019,
-                "CA": 6370000,
-                "effectifs": 18,
-                "surface": 590
-            },
-            {
-                "annee": 2020,
-                "CA": 6300000,
+                "CA": 5810000,
                 "effectifs": 19,
                 "surface": 600
             },
             {
-                "annee": 2021,
-                "CA": 4970000,
-                "effectifs": 6,
-                "surface": 470
+                "annee": 2017,
+                "CA": 6580000,
+                "effectifs": 3,
+                "surface": 440
             },
             {
-                "annee": 2022,
-                "CA": 3605000,
+                "annee": 2018,
+                "CA": 5600000,
+                "effectifs": 5,
+                "surface": 460
+            },
+            {
+                "annee": 2019,
+                "CA": 4480000,
                 "effectifs": 15,
                 "surface": 560
             },
             {
-                "annee": 2023,
-                "CA": 5810000,
+                "annee": 2020,
+                "CA": 6650000,
                 "effectifs": 6,
                 "surface": 470
             },
             {
+                "annee": 2021,
+                "CA": 5460000,
+                "effectifs": 11,
+                "surface": 520
+            },
+            {
+                "annee": 2022,
+                "CA": 5810000,
+                "effectifs": 9,
+                "surface": 500
+            },
+            {
+                "annee": 2023,
+                "CA": 5110000,
+                "effectifs": 20,
+                "surface": 610
+            },
+            {
                 "annee": 2024,
-                "CA": 5180000,
-                "effectifs": 22,
-                "surface": 630
+                "CA": 4059999,
+                "effectifs": 20,
+                "surface": 610
             }
         ]
     },
     {
         "id": 28,
-        "nom": "Acima",
-        "img": "https://albayane.press.ma/wp-content/uploads/ALBAYANE2012/2016/MOIS4/04/acima-maroc.jpg",
-        "location": "El Jadida",
+        "nom": "Hanouty",
+        "img": "../asset/magasin-images/image4.jpg",
+        "location": "Larache",
         "dateOuverture": "2022-03-10",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 4797000,
-                "effectifs": 16,
-                "surface": 710
+                "CA": 6478000,
+                "effectifs": 19,
+                "surface": 740
             },
             {
                 "annee": 2015,
-                "CA": 6027000,
-                "effectifs": 10,
-                "surface": 650
+                "CA": 5535000,
+                "effectifs": 18,
+                "surface": 730
             },
             {
                 "annee": 2016,
-                "CA": 7421000,
-                "effectifs": 21,
-                "surface": 760
+                "CA": 7626000,
+                "effectifs": 18,
+                "surface": 730
             },
             {
                 "annee": 2017,
-                "CA": 4879000,
-                "effectifs": 6,
-                "surface": 610
+                "CA": 8036000,
+                "effectifs": 17,
+                "surface": 720
             },
             {
                 "annee": 2018,
-                "CA": 5535000,
-                "effectifs": 14,
-                "surface": 690
+                "CA": 7134000,
+                "effectifs": 7,
+                "surface": 620
             },
             {
                 "annee": 2019,
-                "CA": 7380000,
+                "CA": 7585000,
                 "effectifs": 23,
                 "surface": 780
             },
             {
                 "annee": 2020,
-                "CA": 5166000,
-                "effectifs": 10,
-                "surface": 650
+                "CA": 4182000,
+                "effectifs": 24,
+                "surface": 790
             },
             {
                 "annee": 2021,
-                "CA": 7421000,
-                "effectifs": 13,
-                "surface": 680
+                "CA": 6314000,
+                "effectifs": 11,
+                "surface": 660
             },
             {
                 "annee": 2022,
-                "CA": 5043000,
-                "effectifs": 23,
-                "surface": 780
+                "CA": 7749000,
+                "effectifs": 17,
+                "surface": 720
             },
             {
                 "annee": 2023,
-                "CA": 7175000,
-                "effectifs": 21,
-                "surface": 760
+                "CA": 4715000,
+                "effectifs": 4,
+                "surface": 590
             },
             {
                 "annee": 2024,
-                "CA": 5125000,
-                "effectifs": 19,
-                "surface": 740
+                "CA": 6150000,
+                "effectifs": 9,
+                "surface": 640
             }
         ]
     },
     {
         "id": 29,
-        "nom": "Marwa",
-        "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDyZaAbXrQPSt-yO39EFISvgN_TkiQKWKNclK0K3hN0IMwsMoqtSDQHipZhJXnPPAOEUFmozc5pyiaqXqp3TJeZpOViHjjPK0QkVxwjUKiH2guPoEYc0iRo-ipJnb8gb0beK6gwhW8rohH_SGmBmHjiCdEvDDo4C-CNKsXqb3w7gQaD4LrJCjhwBPg/s1200/maewaaaa.png",
-        "location": "Tiznit",
+        "nom": "Socoma",
+        "img": "../asset/magasin-images/image12.jpg",
+        "location": "Essaouira",
         "dateOuverture": "2022-09-22",
         "donnees": [
             {
                 "annee": 2014,
-                "CA": 9360000,
-                "effectifs": 38,
-                "surface": 1420
-            },
-            {
-                "annee": 2015,
-                "CA": 11520000,
-                "effectifs": 34,
-                "surface": 1380
-            },
-            {
-                "annee": 2016,
-                "CA": 7020000,
-                "effectifs": 28,
-                "surface": 1320
-            },
-            {
-                "annee": 2017,
-                "CA": 9000000,
-                "effectifs": 38,
-                "surface": 1420
-            },
-            {
-                "annee": 2018,
-                "CA": 7800000,
+                "CA": 7080000,
                 "effectifs": 36,
                 "surface": 1400
             },
             {
+                "annee": 2015,
+                "CA": 6240000,
+                "effectifs": 40,
+                "surface": 1440
+            },
+            {
+                "annee": 2016,
+                "CA": 7140000,
+                "effectifs": 38,
+                "surface": 1420
+            },
+            {
+                "annee": 2017,
+                "CA": 6060000,
+                "effectifs": 32,
+                "surface": 1360
+            },
+            {
+                "annee": 2018,
+                "CA": 10200000,
+                "effectifs": 24,
+                "surface": 1280
+            },
+            {
                 "annee": 2019,
-                "CA": 10440000,
-                "effectifs": 34,
-                "surface": 1380
+                "CA": 10500000,
+                "effectifs": 38,
+                "surface": 1420
             },
             {
                 "annee": 2020,
-                "CA": 7500000,
-                "effectifs": 35,
-                "surface": 1390
-            },
-            {
-                "annee": 2021,
-                "CA": 9300000,
+                "CA": 11940000,
                 "effectifs": 27,
                 "surface": 1310
             },
             {
+                "annee": 2021,
+                "CA": 7440000,
+                "effectifs": 33,
+                "surface": 1370
+            },
+            {
                 "annee": 2022,
-                "CA": 9840000,
-                "effectifs": 37,
-                "surface": 1410
+                "CA": 11700000,
+                "effectifs": 36,
+                "surface": 1400
             },
             {
                 "annee": 2023,
-                "CA": 8460000,
-                "effectifs": 23,
-                "surface": 1270
+                "CA": 11160000,
+                "effectifs": 33,
+                "surface": 1370
             },
             {
                 "annee": 2024,
-                "CA": 7380000,
-                "effectifs": 34,
-                "surface": 1380
+                "CA": 6899999,
+                "effectifs": 35,
+                "surface": 1390
             }
         ]
     }
