@@ -99,21 +99,21 @@ section{
     width: 100%;
     background-color: #6818a5;
     border-radius: 15px 15px 0 0;
-    border: 1px solid black;
 }
 .sub2{
-    background-color: #f8f9fa;
-    border: 1px solid black;
     height: 40%;
     width: 100%;
 }
 .subcard2{
-    border: 1px solid black;
-}
-.cardpart1{
-    border: 1px solid black;
+    /* background-color: #6818a5; */
+    font-weight: bold;
+    /* text-align: center; */
+    color: #6818a5;
+    padding-left: 10px;
+    padding-top: 10px;
 
 }
+
 .row1{
     display: flex;
     flex-direction: row;
@@ -127,20 +127,16 @@ section{
     margin-bottom: 10px;
 }
 .cardpart1{
-    height: 40%;
-    width: 50%;
+    padding-left: 8px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    justify-self: center;
     align-items: center;
-}
+    /* padding-top: 8px; */
+
+}   
 .cardpart2{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     font-weight: bold;
+    padding-left: 8px;
 }
 img {
     max-height: 100%;
