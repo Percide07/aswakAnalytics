@@ -10,14 +10,15 @@ magasins.map(magasin =>
          
                 <div class="sub2">
                     <div class="subcard2">
-                        <h4>${magasin.nom}</h4>
                     </div>
                     <div class="cardpart1" id="marg1">
                         <i class="ri-map-pin-line mt-n3"></i>
-                        <p>${magasin.location}</p>
+                        <h4>${magasin.location}</h4>
                     </div>
                     <div>
                     <button data-magasin=${magasin.nom} data-location=${magasin.location} class="dashboard-btn btn btn-primary">Dashboard <i class="ri-arrow-right-line"></i></button>
+                    <div class="cardpart2" id="marg1">
+                        <p>${String(magasin.dateOuverture)}</p>
                     </div>
                 </div>
             </div>
