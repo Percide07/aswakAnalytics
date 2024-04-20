@@ -10,11 +10,14 @@ magasins.map(magasin =>
          
                 <div class="sub2">
                     <div class="subcard2">
-                        <p>Sidi Maarouf</p>
+                        <p>${magasin.nom}</p>
                     </div>
                     <div class="cardpart1" id="marg1">
                         <i class="ri-map-pin-line mt-n3"></i>
-                        <p>Casablanca, Sidi Maarouf</p>
+                        <p>${magasin.location}</p>
+                    </div>
+                    <div class="cardpart2" id="marg1">
+                        <p>${String(magasin.dateOuverture)}</p>
                     </div>
                 </div>
             </div>

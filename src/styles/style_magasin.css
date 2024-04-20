@@ -13,6 +13,20 @@
 #nav_layout{
     height: 90px;
 }
+a:link { 
+    text-decoration: none; 
+} 
+a:visited { 
+    text-decoration: none; 
+} 
+a:hover { 
+    text-decoration: none; 
+    font-weight: bold;
+} 
+a:active { 
+    text-decoration: none; 
+}
+
 #container{
     color: white;
     background-color: #6818a5;
@@ -72,7 +86,6 @@ section{
 
     width: 230px;
     height: 300px;
-    
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -86,9 +99,20 @@ section{
     width: 100%;
     background-color: #6818a5;
     border-radius: 15px 15px 0 0;
+    border: 1px solid black;
 }
 .sub2{
     background-color: #f8f9fa;
+    border: 1px solid black;
+    height: 40%;
+    width: 100%;
+}
+.subcard2{
+    border: 1px solid black;
+}
+.cardpart1{
+    border: 1px solid black;
+
 }
 .row1{
     display: flex;
@@ -104,10 +128,19 @@ section{
 }
 .cardpart1{
     height: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-self: center;
+    align-items: center;
+}
+.cardpart2{
+    border: 1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    font-weight: bold;
 }
 img {
     max-height: 100%;
