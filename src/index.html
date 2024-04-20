@@ -4,10 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aswak Analytics</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style_dash.css">
     <script src="store.js" type="module"></script>
-    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="styles/style_index.css">
+    <script src="./js/index.js" type="module" defer></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+
 </head>
 <body>
+    <nav class="navbar" id="nav_layout">
+        <div class="container-fluid shadow-lg p-3 mb-5 " id="container">
+       
+
+            <a class="navbar-brand" href="#">
+                <img src="../asset/logo/fav.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top rounded-circle">
+            </a>
+            
+            <div class="list_container">
+                <a href="dashboard.html" style="color: white;">Dashboard</a>
+                <a href="magasin.html" style="color: white;">Magasins</a>
+                <a href="add_magasin.html" style="color: white;">Ajouter un magasin</a>
+            </div>
+            <img src="../asset/logo/exit.png" alt="exit icon" style="width: 40px; height: 40px;">
+        </div>
+    </nav>
+    <section class="container-fluid justify-content-center d-flex flex-column">
+        <div class="container-fluid d-flex flex-column  p-2 ">
+            <div class="col-lg-12 d-flex justify-content-between flex-row">
+                <nav>
+                    
+                        <a href="">CA</a>
+                        <a href="">Effectifs</a>
+                        <a href="">Surface</a>
+                    
+                </nav>
+                <input type="month" name="selectedMonth" id="selectedMonth" min="2020-01" max="2024-12">
+
+            </div>
+        </div>
+        <div class="row container justify-content-around my-4">
+            <div class="col-lg bg-light mx-1 shadow rounded-lg border " style="height: 200px;">
+                <canvas class="" id="CAMoyen" style="width: 100%; height: 100%;"></canvas>
+            </div>
+            <div class="col-lg mx-1  rounded-lg" style="height: 100px;">
+                
+                <div class="col-lg shadow bg-light mx-1 mb-1 border rounded-lg " style="height: 100px;">
+                    <h5 class="mt-4 ml-1">Taux de Variation</h5>
+                    <span id="variation"></span>
+                </div>
+                <div class="col-lg bg-light mx-1 shadow border rounded-lg" style="height: 100px;">
+                    <h5 class="mt-4 ml-1">Ecart Type</h5>
+                    <span id="standardDeviation"></span>
+                    
+                </div>
+            </div>
+            <div class="col-lg bg-light shadow mx-1 border rounded-lg" style="height: 200px;">
+                <canvas class="" id="CAStats" style="width: 100%; height: 100%;"></canvas>
+                
+            </div>
+            <div class="col-lg mx-1  rounded-lg" style="height: 100px;">
+                
+                <div class="col-lg shadow bg-light mx-1 mb-1 borderrounded-lg" style="height: 100px;">
+                    <h5 class="pt-4">Le Meilleur Magasin</h5>
+                    
+                    <span id="bestNom"></span>
+                </div>
+                <div class="col-lg shadow bg-light mx-1 rounded-lg border" style="height: 100px;">
+                    <h5 class="pt-4">La Meilleure Location </h5>
+                    <span id="bestLocation"></span>
+                </div>
+            </div>
+          
+        </div>
+        <div class="row container d-flex justify-content-center flex-row px-4" style="height: 300px;">
+            <div class="col-lg shadow p-4 px-6 bg-light rounded-lg" style="width: 600px;height: 600px;">
+                <canvas class="" id="CANom" style="width: 100%; height: 100%;"></canvas>
+            </div>
+            <div class="col-lg shadow p-4 px-6 bg-light rounded-lg" style="width: 600px;height: 600px;">
+                <canvas class="" id="CALocation" style="width: 100%; height: 100%;"></canvas>
+            </div>
+            
+        </div>
+        
+        
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
 </body>
 </html>
