@@ -1,6 +1,5 @@
 const magasins = JSON.parse(localStorage.getItem("localMagasins"))
 console.log(magasins[0])
-console.log(document.querySelector(".container"))
 magasins.map(magasin => 
     document.getElementById("magasin-list").innerHTML += `
              <div class="card1 col-xs-2 m-4 pb-5">
@@ -23,7 +22,7 @@ magasins.map(magasin =>
                             </div>
                         </div>
                         <div class="d-flex justify-content-end">
-                        <button class="d-flex flex-row btn btn-primary mr-3" data-magasin=${magasin.dateOuverture} data-location=${magasin.location} >Dashboard <i class="ri-arrow-right-line"></i></button>
+                        <button class="dashboard-btn d-flex flex-row btn btn-primary mr-3" data-magasin=${magasin.nom} data-location=${magasin.location} >Dashboard <i class="ri-arrow-right-line"></i></button>
                         </div>
                     </div>
             </div>
@@ -32,5 +31,6 @@ magasins.map(magasin =>
 
 const dashboardBtn = Array.from(document.querySelectorAll(".dashboard-btn"))
 dashboardBtn.map(btn=>btn.addEventListener("click",()=>{
-    window.location.href=`./ajouterDetails.html? magasin=${btn.dataset.magasin}&location=${btn.dataset.location}`
+    console.log(btn.dataset.magasin,btn.dataset.location)
+    window.location.href=`./ajouterDetails.html?magasin=${btn.dataset.magasin}&location=${btn.dataset.location}`
 }))

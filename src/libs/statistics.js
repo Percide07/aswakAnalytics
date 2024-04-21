@@ -49,4 +49,3 @@ export const statisticsFunctions = {
       return Math.floor(standardVariation);
   }
 };
- 

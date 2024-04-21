@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     form.addEventListener('submit', function(event) {
         event.preventDefault();
-        let magasins = JSON.parse(localStorage.getItem('localMagasins')) || [];
+        let magasins = localStorage.getItem('localMagasins') ? JSON.parse(localStorage.getItem('localMagasins')) : [];
 
         const date = document.getElementById('DateOuverture').value;
         const ville = document.getElementById('Ville').value;

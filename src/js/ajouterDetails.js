@@ -14,7 +14,10 @@ const urlParams = new URLSearchParams(window.location.search);
 const magasinNom = urlParams.get('magasin');
 const magasinLocation = urlParams.get('location');
 
+console.log(magasinNom,magasinLocation)
 const selectedMagasin = magasins.filter(magasin => magasin.nom == magasinNom && magasin.location == magasinLocation).map(magasin => magasin.donnees)[0]
+
+
 const magasinId = magasins.filter(magasin => magasin.nom == magasinNom && magasin.location == magasinLocation)[0]
 
 window.addEventListener("DOMContentLoaded",()=>{
