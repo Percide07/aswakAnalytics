@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Check if the credentials are correct
     if (checkCredentials(email, password)) {
-      window.location.href = 'add_magazin.html';
+      window.location.href = 'index.html';
       // Redirect to admin dashboard or perform any other action
     } else {
       alert("Incorrect email or password. Please try again.");

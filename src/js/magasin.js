@@ -18,12 +18,12 @@ magasins.map(magasin =>
                         <p>${magasin.location}</p>
                             <div>
                             <div class="cardpart2" id="marg1">
-                                 <p>${String(magasin.dateOuverture)}</p>
+                                 <p>${magasin.dateOuverture}</p>
                             </div>
                             </div>
                         </div>
                         <div class="d-flex justify-content-end">
-                        <button class="d-flex flex-row btn btn-primary mr-3" data-magasin=${magasin.nom} data-location=${magasin.location} >Dashboard <i class="ri-arrow-right-line"></i></button>
+                        <button class="d-flex flex-row btn btn-primary mr-3" data-magasin=${magasin.dateOuverture} data-location=${magasin.location} >Dashboard <i class="ri-arrow-right-line"></i></button>
                         </div>
                     </div>
             </div>
@@ -32,5 +32,5 @@ magasins.map(magasin =>
 
 const dashboardBtn = Array.from(document.querySelectorAll(".dashboard-btn"))
 dashboardBtn.map(btn=>btn.addEventListener("click",()=>{
-    window.location.href=`./ajouterDetails.html?magasin=${btn.dataset.magasin}&location=${btn.dataset.location}`
+    window.location.href=`./ajouterDetails.html? magasin=${btn.dataset.magasin}&location=${btn.dataset.location}`
 }))
