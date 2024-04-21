@@ -16,12 +16,13 @@ document.addEventListener('DOMContentLoaded', function() {
             img: img,
             location: ville,
             dateOuverture: date,
+            donnees:{}
         };
 
       
         magasins.push(magasin);
         localStorage.setItem('localMagasins', JSON.stringify(magasins));
 
-        window.location.href = 'magazin.html';
+        window.location.href = './magasin.html';
     });
 });
