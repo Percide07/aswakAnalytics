@@ -1,20 +1,11 @@
 const magasins = localStorage.getItem("localMagasins") ? JSON.parse(localStorage.getItem("localMagasins")) : [];
 
 
-export const filterByYear = (array,year,type) => {
-    switch(type) {
-        case 'CA':
-            return array.map(el => el.donnees.find(donnee => donnee.annee == year).CA)
-        break;
-        case 'effectifs':
-            array.map(el => el.donnees.find(donnee => donnee.annee == year).effectifs)
-        break;
-        case 'surface':
-            array.map(el => el.donnees.find(donnee => donnee.annee == year).surface)
-        break;
-    }
+export const filterByYear = (array,year,type) => array.map(el => el.donnees.find(donnee => donnee.annee == year)[type])
 
-}
+ 
+
+
 
 export const filterByLocation = (array,location,type,_year) => {
    

@@ -1,7 +1,16 @@
 import { statisticsFunctions } from "../libs/statistics.js";
 import { filterByYear,filterByLocation,filterByNom } from "../libs/filter.js";
 const magasins = localStorage.getItem("localMagasins") ? JSON.parse(localStorage.getItem("localMagasins")) : []
-console.log(magasins[0])
+const params = new URLSearchParams(window.location.search);
+const type = params.get("type") ? params.get("type") : "CA";
+const annee = params.get("annee") ?  parseInt(params.get("annee")) : "2022"
+
+console.log(type,annee)
+const selectedMonthInput = document.getElementById("selectedMonth")
+selectedMonthInput.addEventListener("change",(e)=>{
+    const selectedYear = String(e.target.value).split("-")[0]
+    window.location.href= `index.html?type=${type}&annee=${selectedYear}`;
+})
 
 
 // const globalCA = magasins.map(mag=>mag.donnees.find(donnee=>donnee.annee == "2022").CA).reduce((acc,el)=>acc+el,0)
@@ -11,19 +20,20 @@ console.log(magasins[0])
 // const globalSurface = magasins.map(mag=>mag.donnees.find(donnee=>donnee.annee = "2022").surface).reduce((acc,el)=>acc+el,0)
 // console.log(globalSurface)
 
-const CAFilteredMagasinsByYear = filterByYear(magasins,2022,"CA")
+
+
+const CAFilteredMagasinsByYear = filterByYear(magasins,annee,type)
+console.log(CAFilteredMagasinsByYear)
+
 
 const magasinLocations = Array.from(new Set(magasins.map(magasin => magasin.location)))
-console.log(magasinLocations)
 const magasinNoms = Array.from(new Set(magasins.map(magasin => magasin.nom)))
-console.log(magasinNoms)
 
-const CAFilteredMagasinsByLocation = magasinLocations.map(location =>filterByLocation(magasins,location,"CA"))
-const CaFilteredMagasinsByNom = magasinNoms.map(nom =>filterByNom(magasins,nom,"CA"))
-console.log(CaFilteredMagasinsByNom)
-console.log(statisticsFunctions.getMax(CaFilteredMagasinsByNom))
-const BestNomByYearOutput = magasinNoms.map(nom => {return {nom:nom,ca:filterByNom(magasins,nom,"CA")}}).find(el=>el.ca== statisticsFunctions.getMax(CaFilteredMagasinsByNom))
-const BestLocationByYearOutput = magasinLocations.map(location => {return {location:location,ca:filterByLocation(magasins,location,"CA")}}).find(el=>el.ca== statisticsFunctions.getMax(CAFilteredMagasinsByLocation))
+const CAFilteredMagasinsByLocation = magasinLocations.map(location =>filterByLocation(magasins,location,type))
+const CaFilteredMagasinsByNom = magasinNoms.map(nom =>filterByNom(magasins,nom,type))
+
+const BestNomByYearOutput = magasinNoms.map(nom => {return {nom:nom,ca:filterByNom(magasins,nom,type)}}).find(el=>el.ca== statisticsFunctions.getMax(CaFilteredMagasinsByNom))
+const BestLocationByYearOutput = magasinLocations.map(location => {return {location:location,ca:filterByLocation(magasins,location,type)}}).find(el=>el.ca== statisticsFunctions.getMax(CAFilteredMagasinsByLocation))
 //Charts
 const CANomChart = document.getElementById('CANom').getContext('2d');
 const CANom = new Chart(CANomChart, {
@@ -140,3 +150,5 @@ const bestNomOutput = document.getElementById("bestNom")
 bestNomOutput.innerHTML = BestNomByYearOutput.nom
 const bestLocationOutput = document.getElementById("bestLocation")
 bestLocationOutput.innerHTML = BestLocationByYearOutput.location
+
+
