@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aswak Analytics</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
     <link rel="stylesheet" href="styles/style_dash.css">
+    <script src="redirect.js" defer></script>
     <script src="store.js" type="module"></script>
     <link rel="stylesheet" href="styles/style_index.css">
     <script src="./js/index.js" type="module" defer></script>
@@ -30,10 +31,85 @@
                 <a href="magasin.html" style="color: white;">Magasins</a>
                 <a href="add_magasin.html" style="color: white;">Ajouter un magasin</a>
             </div>
+            <div class="list_container-icons">
+                <a href="index.html?type=CA&annee=2014" style="color: white;"><i class="ri-bar-chart-2-fill"></i></a>
+                <a href="magasin.html" style="color: white;"><i class="ri-home-smile-fill"></i></a>
+                <a href="add_magasin.html" style="color: white;"><i class="ri-map-pin-add-fill"></i></a>
+            </div>
             <i style="font-size: 30px;" class="ri-logout-box-r-line"></i>
         </div>
     </nav>
-    <section class="container-fluid justify-content-center d-flex flex-column">
+    <div class="container p-4">
+        <div class="row mb-4">
+            <div class="col-6">
+                <nav class="nav-bar">
+                    
+                        <a href="?type=CA&annee=2022">CA</a>
+                        <a href="?type=effectifs&annee=2022">Effectifs</a>
+                        <a href="?type=surface&annee=2022">Surface</a>
+                    
+                </nav>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+                <input type="month" name="selectedMonth" id="selectedMonth" min="2020-01" max="2024-12">
+            </div>
+
+        </div>
+        <div class="row m-auto">
+            <div class="col-lg-6 col-12 mb-2 ">
+                <div class="m-lg-1">
+                    <canvas class="" id="CAMoyen"></canvas>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-12  mb-2">
+                    <div class="row flex-column ">
+                        <div class="m-lg-1 bg-light px-3">
+                            <h5 class="pt-3 ml-1">Taux de Variation</h5>
+                            <span id="variation"></span>
+                        </div>
+                    </div>
+                    <div class="row flex-column mt-2">
+                        <div class="mx-lg-1 bg-light px-3 ">
+                            <h5 class="pt-3">Ecart Type</h5>
+                            <span id="standardDeviation"></span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="row m-auto">
+            <div class="col-lg-6 col-12  mb-2">
+                    <div class="row flex-column ">
+                        <div class="m-lg-1 bg-light px-3">
+                            <h5 class="pt-3">Le Meilleur Magasin</h5>
+                            <span id="bestNom"></span>
+                        </div>
+                    </div>
+                    <div class="row flex-column mt-2">
+                        <div class="mx-lg-1 bg-light px-3">
+                            <h5 class="pt-3">La Meilleure Location</h5>
+                            <span id="bestLocation"></span>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-6 col-12  mb-2">
+                <canvas class="" id="CAStats"></canvas>
+            </div>
+        </div>
+        <div class="row m-auto">
+            <div class="col-lg-6 col-12  mb-2">
+                <canvas class="" id="CANom" height="400" width="400"></canvas>
+            </div>
+            <div class="col-lg-6 col-12  mb-2">
+                <canvas class="" id="CALocation" height="400" width="400"></canvas>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- rsponsive -->
+    <!-- <section class="container-fluid justify-content-center d-flex flex-column p-3">
         <div class="container-fluid d-flex flex-column  p-2 ">
             <div class="col-lg-12 d-flex justify-content-between flex-row">
                 <nav class="nav-bar">
@@ -47,52 +123,51 @@
 
             </div>
         </div>
-        <div class="row container justify-content-around my-4">
-            <div class="col-lg bg-light mx-1 shadow rounded-lg border " style="height: 200px;">
-                <canvas class="" id="CAMoyen" style="width: 100%; height: 100%;"></canvas>
+        <div class="row container-fluid my-4">
+            <div class="col-lg bg-light mx-2 shadow rounded-lg border p-4 d-flex justify-content-center" style="height: 204px">
+                <canvas class="" id="CAMoyen" width="200" height="200"></canvas>
             </div>
             <div class="col-lg mx-1  rounded-lg" style="height: 100px;">
                 
-                <div class="col-lg shadow bg-light mx-1 mb-1 border rounded-lg " style="height: 100px;">
+                <div class="col-lg shadow bg-light mx-2 mb-1 border rounded-lg " style="height: 100px;">
                     <h5 class="mt-4 ml-1">Taux de Variation</h5>
                     <span id="variation"></span>
                 </div>
-                <div class="col-lg bg-light mx-1 shadow border rounded-lg" style="height: 100px;">
-                    <h5 class="mt-4 ml-1">Ecart Type</h5>
+                <div class="col-lg bg-light mx-2 shadow border rounded-lg" style="height: 100px;">
+                    <h5 class="mt-4">Ecart Type</h5>
                     <span id="standardDeviation"></span>
                     
                 </div>
             </div>
-            <div class="col-lg bg-light shadow mx-1 border rounded-lg" style="height: 200px;">
-                <canvas class="" id="CAStats" style="width: 100%; height: 100%;"></canvas>
+            <div class="d-flex justify-content-center col-lg bg-light shadow mx-2 border rounded-lg " style="height: 204px;">
+                <canvas class="" id="CAStats"></canvas>
                 
             </div>
             <div class="col-lg mx-1  rounded-lg" style="height: 100px;">
                 
-                <div class="col-lg shadow bg-light mx-1 mb-1 borderrounded-lg" style="height: 100px;">
+                <div class="col-lg shadow bg-light mx-2 mb-1 borderrounded-lg" style="height: 100px;">
                     <h5 class="pt-4">Le Meilleur Magasin</h5>
-                    
                     <span id="bestNom"></span>
                 </div>
-                <div class="col-lg shadow bg-light mx-1 rounded-lg border" style="height: 100px;">
+                <div class="col-lg shadow bg-light mx-2 rounded-lg border" style="height: 100px;">
                     <h5 class="pt-4">La Meilleure Location </h5>
                     <span id="bestLocation"></span>
                 </div>
             </div>
           
         </div>
-        <div class="row container d-flex justify-content-center flex-row px-4" style="height: 300px;">
-            <div class="col-lg shadow p-4 px-6 bg-light rounded-lg" style="width: 600px;height: 600px;">
-                <canvas class="" id="CANom" style="width: 100%; height: 100%;"></canvas>
+        <div class="row justify-content-between container-fluid d-flex flex-row ">
+            <div class="col-lg shadow p-4 px-6 bg-light m-5 ml-0 rounded-lg" >
+                <canvas class="" id="CANom" height="400" width="400"></canvas>
             </div>
-            <div class="col-lg shadow p-4 px-6 bg-light rounded-lg" style="width: 600px;height: 600px;">
-                <canvas class="" id="CALocation" style="width: 100%; height: 100%;"></canvas>
+            <div class="col-lg shadow p-4 px-6 bg-light m-5 mr-0 rounded-lg">
+                <canvas class="" id="CALocation" height="400" width="400"></canvas>
             </div>
             
         </div>
         
         
-    </section>
+    </section> -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
 </body>

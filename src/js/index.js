@@ -50,6 +50,15 @@ const CANom = new Chart(CANomChart, {
     },
     options: {
         scales: {
+            x: {
+                ticks: {
+                    font: {
+                        size: 8 
+                    },
+                    maxRotation: 45, 
+                    autoSkip: false 
+                }
+            },
             y: {
                 ticks: {
                     display: false
@@ -112,7 +121,17 @@ const CAMoyen = new Chart(CAMoyenChart,{
       ],
       hoverOffset: 4
     }]
-  }
+  },
+  options: {
+    aspectRatio: 3, 
+    plugins: {
+        
+        legend: {
+            position: 'left'
+        }
+    }
+}
+
 })
 const CAStatsChart = document.getElementById("CAStats")
 const CAStats = new Chart(CAStatsChart,{
@@ -137,7 +156,14 @@ const CAStats = new Chart(CAStatsChart,{
           ]
         }]
       },
-    options: {}
+      options: {
+        aspectRatio: 3,     
+        plugins: {
+            legend: {
+                position: 'left'
+            }
+        }
+    }
 
 })
 

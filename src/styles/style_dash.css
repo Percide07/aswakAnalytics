@@ -124,3 +124,20 @@ a:active {
     border: 1px solid black;
     border-radius: 20px;
 }
+
+.list_container-icons{
+    font-size: 30px;
+    display: none;
+    width: 60%;
+    justify-content: space-around;
+}
+
+@media (max-width:800px) {
+    .list_container {
+        display: none;
+    }
+    .list_container-icons {
+        display: flex;
+    }
+}
+
