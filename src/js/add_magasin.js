@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             img: img,
             location: ville,
             dateOuverture: date,
-            donnees:{}
+            donnees:[]
         };
 
       
